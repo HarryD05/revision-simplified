@@ -1,6 +1,7 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import {NavLink} from 'react-router-dom';
 
+//Styling
 import './navbar.scss';
 
 const Navbar = props => {
@@ -12,9 +13,9 @@ const Navbar = props => {
 
       <div className="links">
         <ul>
-          <Link to="/home"><li>Home</li></Link>
-          <Link to="/subjects"><li>Subjects</li></Link>
-          <Link to="/about"><li>About me</li></Link>
+          <li><NavLink to="/home">Home</NavLink></li>
+          <li><NavLink to="/subjects">Subjects</NavLink></li>
+          <li><NavLink to="/about">About me</NavLink></li>
         </ul>
       </div>
     </nav>
