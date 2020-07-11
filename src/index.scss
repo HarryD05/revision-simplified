@@ -3,7 +3,15 @@
 :root {
   --nav-width: 200px;
   --nav-bg: #222;
+  --title-size: 1.1rem;
   --primary: #66e8ff;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --nav-width: 120px;
+    --title-size: 0.8rem;
+  }
 }
 
 /* Defaults */

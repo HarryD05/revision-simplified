@@ -12,7 +12,7 @@ import Unknown from './pages/Unknown';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
 
       <main>
