@@ -3,7 +3,7 @@
 :root {
   --nav-width: 200px;
   --nav-bg: #222;
-  --primary: #66E8FF;
+  --primary: #66e8ff;
 }
 
 /* Defaults */
@@ -13,8 +13,8 @@ body {
 
   font-family: 'Lato', sans-serif;
 
-  background: #333;
-  color: white;
+  background: #fff;
+  color: black;
 }
 
 /* Main container */
@@ -30,10 +30,35 @@ h1, h2, h3, p, ul, li {
   padding: 0;
 }
 
-p {
+p, ul {
   padding-bottom: 1rem;
 }
 
 ul {
   margin-left: 1rem;
+}
+
+table {
+  text-align: left;
+  font-weight: normal;
+
+  border-collapse: collapse;
+
+  margin-bottom: 1rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #9fffbf;
 }
