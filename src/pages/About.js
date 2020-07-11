@@ -1,6 +1,12 @@
-import React from 'react';
+import React, {useContext} from 'react';
+
+//Context
+import {LocationContext} from '../context/LocationContext';
 
 const About = props => {
+  const locContext = useContext(LocationContext);
+  locContext.setCurrSubject(null);
+
   return (
     <div className="about">
       <h1>About me</h1>

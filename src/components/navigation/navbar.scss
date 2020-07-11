@@ -54,6 +54,17 @@ nav {
       }
     }
   }
+
+  .links {
+    margin-bottom: 1rem;
+    
+  }
+
+  .subject-links {
+    margin-top: 1rem;
+    border-top: 1px solid white;
+    
+  }
 }
 
 .active {
@@ -61,7 +72,6 @@ nav {
   color: black;
 
   &:hover {
-    color: black;
-    cursor: default;
+    color: #838383;
   }
 }

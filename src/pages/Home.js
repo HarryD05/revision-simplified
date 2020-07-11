@@ -1,9 +1,16 @@
-import React from 'react';
+import React, {useContext} from 'react';
+
+//Context
+import {LocationContext} from '../context/LocationContext';
 
 const Home = props => {
+  const locContext = useContext(LocationContext);
+  locContext.setCurrSubject(null);
+
   return (
     <div className="home">
       <h1>Welcome to Revision Simplified</h1>
+      <h3><em>Good revision ---&gt; Good results</em></h3>
       <p>The aim of this website is to help you get the best results possible in your exams, I will be using my revision notes to make revision content for all to use. However, because these are based on my revision notes, the content will be specific to the specifications of the exam boards I was doing exams for, once I have completed the final exams.</p>
 
       <h2>Current subjects covered</h2>

@@ -1,0 +1,45 @@
+* {
+  line-height: 1.3rem;
+}
+
+h2 {
+  margin-top: 1rem;
+}
+
+p {
+  padding-bottom: 0;
+}
+
+p, h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-bottom: 0;
+
+  li {
+    a {
+      font-weight: 700;
+    }
+  }
+}
+
+.heading {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
+
+.sub-heading {
+  font-weight: 700;
+}
+
+.topic {
+  margin-bottom: 1rem;
+}
+
