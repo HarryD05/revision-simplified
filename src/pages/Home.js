@@ -20,16 +20,19 @@ const Home = props => {
           <tr>
             <th>Subject</th>
             <th>Spec. code</th>
+            <th>GCSE grade</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>RE</td>
-            <td>Edexcel B 2016 (1C & 2B)</td>
+            <td>Edexcel B 2016 (1RB0 - ZB)</td>
+            <td>Coming 20-Aug-2020</td>
           </tr>
           <tr>
             <td>Computer Science</td>
             <td>OCR (J726)</td>
+            <td>Coming 20-Aug-2020</td>
           </tr>
         </tbody>
       </table>
