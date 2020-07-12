@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 
 //Topics
-import Component_1_1 from './components/component_1_1';
+import Component11 from './components/component11';
 
 //Context
 import {LocationContext} from '../../../../context/LocationContext';
@@ -19,7 +19,7 @@ const GCSE_CS = props => {
       <h3>OCR (J726)</h3>
 
       <div id="spec">
-        <h2>Specification</h2>
+        <h2>Specification at a glance</h2>
         <h3>Paper 1 - 1hr 30mins [80 marks]</h3>
         <em>Computer Systems (Component 1)</em>
         <ul>
@@ -70,7 +70,7 @@ const GCSE_CS = props => {
 
       <div id="notes">
         <h2>My Revision Notes</h2>
-        <Component_1_1 />
+        <Component11 />
         <h4>Component 1.2 - Memory</h4>
         <h4>Component 1.3 - Storage</h4>
         <h4>Component 1.4 - Wired & wireless networks</h4>

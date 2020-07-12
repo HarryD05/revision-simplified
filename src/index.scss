@@ -15,16 +15,18 @@
 }
 
 /* Defaults */
+html {
+  scroll-behavior: smooth;   
+}
+
 body {
   margin: 0;
   padding: 0;
 
   font-family: 'Lato', sans-serif;
 
-  background: #fff;
-  color: black;
-
-  scroll-behavior: smooth;
+  background: #ffffff;
+  color: #000000;
 }
 
 /* Main container */
@@ -50,13 +52,15 @@ ul {
 
 a {
   text-decoration: none;
-  color: #4013a0;
+  color: #471caa;
 }
 
 /* Table styling */
 table {
   text-align: left;
   font-weight: normal;
+
+  color: black;
 
   border-collapse: collapse;
 
@@ -72,9 +76,14 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+  background-color: #bebebe;
 }
 
 th {
-  background-color: #9fffbf;
+  background-color: #93cbff;
+  color: #000000;
 }

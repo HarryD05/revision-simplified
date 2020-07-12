@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Component_1_1 = () => {
+const Component11 = () => {
   return (
     <div id="comp1_1" className="topic">
       <h4>Component 1.1 - System architecture (CPU)</h4>
@@ -73,4 +73,4 @@ const Component_1_1 = () => {
   )
 }
 
-export default Component_1_1;
+export default Component11;
