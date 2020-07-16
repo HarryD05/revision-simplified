@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import { HashRouter, Switch, Route, Redirect } from 'react-router-dom';
 
 //Components
 import Navbar from './components/navigation/Navbar';
@@ -16,7 +16,7 @@ import GCSE_CS from './pages/subjects/GCSE/CS/GCSE_CS';
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Navbar />
 
       <main>
@@ -30,7 +30,7 @@ const App = () => {
           <Route component={Unknown} />
         </Switch>
       </main>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

@@ -5,7 +5,7 @@ import {LocationContext} from '../context/LocationContext';
 
 const Unknown = props => {
   const locContext = useContext(LocationContext);
-  locContext.setCurrSubject(null);
+  locContext.setCurrentSubject(null);
 
   return (
     <div className="unknown">

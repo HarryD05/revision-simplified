@@ -11,7 +11,7 @@ import '../../subject.scss';
 
 const GCSE_CS = props => {
   const locContext = useContext(LocationContext);
-  locContext.setCurrSubject('GCSE_CS');
+  locContext.setCurrentSubject('GCSE_CS');
 
   return (
     <div className="subject">

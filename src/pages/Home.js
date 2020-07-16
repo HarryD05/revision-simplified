@@ -5,7 +5,7 @@ import {LocationContext} from '../context/LocationContext';
 
 const Home = props => {
   const locContext = useContext(LocationContext);
-  locContext.setCurrSubject(null);
+  locContext.setCurrentSubject(null);
 
   return (
     <div className="home">
@@ -26,7 +26,7 @@ const Home = props => {
         <tbody>
           <tr>
             <td>RE</td>
-            <td>Edexcel B 2016 (1RB0 - ZB)</td>
+            <td>Edexcel B 2016 (ZB - 1C, 2B)</td>
             <td>Coming 20-Aug-2020</td>
           </tr>
           <tr>
@@ -37,7 +37,7 @@ const Home = props => {
         </tbody>
       </table>
 
-      <h2>Future subjects</h2>
+      <h2>Future subjects <em>(that will have revision notes)</em></h2>
       <h3>GCSE</h3>
       <table>
         <thead>

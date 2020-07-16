@@ -7,9 +7,17 @@ export default (props) => {
 
   const [currSubject, setCurrSubject] = useState(null);
 
+  const setCurrentSubject = subject => {
+    setCurrSubject(subject);
+  }
+
+  const getCurrentSubject = () => {
+    return currSubject;
+  }
+
   return (
     <div>
-      <LocationContext.Provider value={{currSubject, setCurrSubject}}>
+      <LocationContext.Provider value={{getCurrentSubject, setCurrentSubject}}>
         { children }
       </LocationContext.Provider>
     </div>

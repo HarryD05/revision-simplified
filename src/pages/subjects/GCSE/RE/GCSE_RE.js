@@ -11,7 +11,7 @@ import '../../subject.scss';
 
 const GCSE_RE = props => {
   const locContext = useContext(LocationContext);
-  locContext.setCurrSubject('GCSE_RE');
+  locContext.setCurrentSubject('GCSE_RE');
 
   return (
     <div className="subject">
@@ -45,7 +45,7 @@ const GCSE_RE = props => {
         <p>Books I used:</p> 
         <ul>
           <li>
-            <a href="https://www.pearsonschoolsandfecolleges.co.uk/secondary/ReligiousEducationandCitizenship/14-16forEdexcel/EdexcelGCSE91ReligiousStudiesSpecB/ISBN/Revision/ReviseEdexcelGCSE91ReligiousStudiesChristianityIslamRevisionGuide.aspx" target="__blank" el="noopener noreferrer">Pearson revision guide </a> (contains all possible topics so can igure around half!)
+            <a href="https://www.pearsonschoolsandfecolleges.co.uk/secondary/ReligiousEducationandCitizenship/14-16forEdexcel/EdexcelGCSE91ReligiousStudiesSpecB/ISBN/Revision/ReviseEdexcelGCSE91ReligiousStudiesChristianityIslamRevisionGuide.aspx" target="__blank" el="noopener noreferrer">Pearson revision guide </a> (contains all possible topics so can ignore around half!)
           </li>
         </ul>
 

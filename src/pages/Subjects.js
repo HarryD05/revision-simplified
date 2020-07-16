@@ -9,7 +9,7 @@ import './styling/subjects.scss';
 
 const Subjects = props => {
   const locContext = useContext(LocationContext);
-  locContext.setCurrSubject(null);
+  locContext.setCurrentSubject(null);
 
   return (
     <div className="subjects">
