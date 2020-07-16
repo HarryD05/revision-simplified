@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --nav-width: 200px;
+  --nav-width: 250px;
   --nav-bg: #222;
   --title-size: 1.1rem;
   --primary: #66e8ff;
 }
 
-@media (max-width: 600px) {
-  :root {
-    --nav-width: 120px;
-    --title-size: 0.8rem;
-  }
+/* Defaults */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-/* Defaults */
 html {
   scroll-behavior: smooth;   
 }
@@ -23,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
   background: #ffffff;
   color: #000000;

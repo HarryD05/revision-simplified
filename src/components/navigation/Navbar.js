@@ -1,5 +1,5 @@
 //Dependencies
-import React, {useContext} from 'react';
+import React, {useState, useContext} from 'react';
 import {NavLink} from 'react-router-dom';
 
 //Context
@@ -13,16 +13,27 @@ import './navbar.scss';
 
 const Navbar = props => {
   const locContext = useContext(LocationContext);
+  const hashes = (locContext.getCurrentSubject() === null) ? false : true;
 
-  const renderSubjectLinks = () => {
+  const [isSubjects, setIsSubjects] = useState(false);
+
+  const toggleSubjects = () => {
+    setIsSubjects(!isSubjects);
+
+    let caretClasses = document.querySelector('nav ul li a span').classList;
+    if (isSubjects) {
+      caretClasses.remove('rotated');
+    } else {
+      caretClasses.add('rotated');
+    }
+  }
+
+  const renderSubjectsDropdown = () => {
     return (
-      <div className="subject-links">
-        <ul>
-          <li><HashLink id="spec"  name="Spec." /></li>
-          <li><HashLink id="res"   name="Resources" /> </li>
-          <li><HashLink id="notes" name="Notes" /></li>
-        </ul>
-      </div>
+      <ul className="subject-dropdown">
+        <li><NavLink to="/subjects/GCSE_RE" onClick={toggleSubjects}>RE</NavLink></li>
+        <li><NavLink to="/subjects/GCSE_CS" onClick={toggleSubjects}>Computing</NavLink></li>
+      </ul>
     )
   }
 
@@ -32,16 +43,22 @@ const Navbar = props => {
         <h1>Revision Simplified</h1>
       </div>
 
-      <div className="links">
-        <ul>
-          <li><NavLink to="/home">Home</NavLink></li>
-          <li><NavLink to="/subjects">Subjects</NavLink></li>
-          <li><NavLink to="/about">About me</NavLink></li>
-        </ul>
-      </div>
+      <ul>
+        <li><NavLink to="/home">Home</NavLink></li>
+        <li>
+          {/* eslint-disable-next-line */}
+          <a href="#" className="subjects" onClick={toggleSubjects}>Subjects
+            <span className="fas fa-caret-down"></span>
+          </a> 
+          { isSubjects ? renderSubjectsDropdown() : null }
+        </li>
+        <li><NavLink to="/about">About me</NavLink></li>
 
-      { locContext.getCurrentSubject() === null ? null : renderSubjectLinks() }
-      
+        { hashes ? <span className="barrier"></span> : null }
+        { hashes ? <li><HashLink id="spec"  name="Spec." /></li> : null }
+        { hashes ? <li><HashLink id="res"   name="Resources" /> </li>: null }
+        { hashes ?  <li><HashLink id="notes" name="Notes" /></li>: null }
+      </ul>
     </nav>
   )
 }
