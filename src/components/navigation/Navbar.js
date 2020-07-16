@@ -47,7 +47,7 @@ const Navbar = props => {
         <li><NavLink to="/home">Home</NavLink></li>
         <li>
           {/* eslint-disable-next-line */}
-          <a href="#" className="subjects" onClick={toggleSubjects}>Subjects
+          <a className="subjects" onClick={toggleSubjects}>Subjects
             <span className="fas fa-caret-down"></span>
           </a> 
           { isSubjects ? renderSubjectsDropdown() : null }
