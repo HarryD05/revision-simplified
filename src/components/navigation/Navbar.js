@@ -1,8 +1,12 @@
+//Dependencies
 import React, {useContext} from 'react';
 import {NavLink} from 'react-router-dom';
 
 //Context
 import {LocationContext} from '../../context/LocationContext';
+
+//Components
+import HashLink from '../HashLink';
 
 //Styling
 import './navbar.scss';
@@ -14,9 +18,9 @@ const Navbar = props => {
     return (
       <div className="subject-links">
         <ul>
-          <li><a href="#spec">Spec.</a></li>
-          <li><a href="#res">Resources</a></li>
-          <li><a href="#notes">Notes</a></li>
+          <li><HashLink id="spec"  name="Spec." /></li>
+          <li><HashLink id="res"   name="Resources" /> </li>
+          <li><HashLink id="notes" name="Notes" /></li>
         </ul>
       </div>
     )

@@ -1,17 +1,16 @@
-import React, {useContext} from 'react';
+import React from 'react';
 
 //Topics
 import Component11 from './components/component11';
 
-//Context
-import {LocationContext} from '../../../../context/LocationContext';
+//Components 
+import HashLink from '../../../../components/HashLink';
 
 //Styling
 import '../../subject.scss';
 
 const GCSE_CS = props => {
-  const locContext = useContext(LocationContext);
-  locContext.setCurrentSubject('GCSE_CS');
+  props.setSubject('GCSE_CS');
 
   return (
     <div className="subject">
@@ -23,7 +22,7 @@ const GCSE_CS = props => {
         <h3>Paper 1 - 1hr 30mins [80 marks]</h3>
         <em>Computer Systems (Component 1)</em>
         <ul>
-          <li><a href="#comp1_1">1.1</a> - System architecture (CPU)</li>
+          <li><HashLink id="comp1_1" name="1.1" /> - System architecture (CPU)</li>
           <li>1.2 - Memory</li>
           <li>1.3 - Storage</li>
           <li>1.4 - Wired & wireless networks</li>

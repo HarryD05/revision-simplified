@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
+import React, {useContext} from 'react';
+import { HashRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 
 //Components
 import Navbar from './components/navigation/Navbar';
@@ -14,9 +14,18 @@ import Unknown from './pages/Unknown';
 import GCSE_RE from './pages/subjects/GCSE/RE/GCSE_RE';
 import GCSE_CS from './pages/subjects/GCSE/CS/GCSE_CS';
 
+//Context
+import {LocationContext} from './context/LocationContext';
+
 const App = () => {
+  const locContext = useContext(LocationContext);
+
+  const useSetSubject = subject => {
+    locContext.setCurrentSubject(subject);
+  }
+
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router>
       <Navbar />
 
       <main>
@@ -25,12 +34,12 @@ const App = () => {
           <Route exact path="/home" component={Home} />
           <Route exact path="/subjects" component={Subjects} />
           <Route exact path="/about" component={About} />
-          <Route exact path="/subjects/GCSE_RE" component={GCSE_RE} />
-          <Route exact path="/subjects/GCSE_CS" component={GCSE_CS} />
+          <Route exact path="/subjects/GCSE_RE" component={() => <GCSE_RE setSubject={useSetSubject} />} />
+          <Route exact path="/subjects/GCSE_CS" component={() => <GCSE_CS setSubject={useSetSubject} />} />
           <Route component={Unknown} />
         </Switch>
       </main>
-    </BrowserRouter>
+    </Router>
   )
 }
 

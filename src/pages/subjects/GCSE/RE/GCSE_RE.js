@@ -1,17 +1,17 @@
-import React, {useContext} from 'react';
-
-//Context
-import {LocationContext} from '../../../../context/LocationContext';
+//Dependencies
+import React from 'react';
 
 //Topics
 import Islam1 from './topics/islam1';
+
+//Components
+import HashLink from '../../../../components/HashLink';
 
 //Styling
 import '../../subject.scss';
 
 const GCSE_RE = props => {
-  const locContext = useContext(LocationContext);
-  locContext.setCurrentSubject('GCSE_RE');
+  props.setSubject('GCSE_RE');
 
   return (
     <div className="subject">
@@ -23,7 +23,7 @@ const GCSE_RE = props => {
         <h3>Paper 1 - 1hr 45mins [102 marks]</h3>
         <em>Islam (1C)</em>
         <ul>
-          <li><a href="#islam1">1a</a> - Belief in Allah</li>
+          <li><HashLink id="islam1" name="1a" /> - Belief in Allah</li>
           <li>1b - Marriage & the Family</li>
           <li>1c - Living the Muslim Life</li>
           <li>1d - Matters of Life & Death</li>
