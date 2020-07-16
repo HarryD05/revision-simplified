@@ -36,7 +36,7 @@ const Navbar = props => {
         </ul>
       </div>
 
-      { locContext.currSubject === null ? null : renderSubjectLinks() }
+      { locContext.getCurrentSubject() === null ? null : renderSubjectLinks() }
       
     </nav>
   )
