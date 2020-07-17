@@ -155,6 +155,31 @@ nav {
   }
 }
 
+.return-btn {
+  position: fixed;
+  top: 50px;
+  left: 15px;
+
+  height: 30px;
+  width: 30px;
+
+  border-radius: 8px;
+
+  background: #1b1b1b;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: left 0.4s ease;
+
+  span {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 
 /*.active {
   color: white;

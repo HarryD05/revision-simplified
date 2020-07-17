@@ -18,6 +18,24 @@ const Navbar = props => {
 
   const [isSubjects, setIsSubjects] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  
+  let isMini = (window.visualViewport.width <= 768) ? true : false;
+
+  const checkSize = () => {
+    isMini = (window.visualViewport.width <= 768) ? true : false;
+
+    let main = document.querySelector('main');
+
+    if (main) {
+      if (isMini) {
+        main.classList.add('full');
+      } else {
+        main.classList.remove('full');
+      }
+    }
+  }
+
+  checkSize();
 
   const updateComponents = () => {
     let toggle = document.querySelector('.toggle-btn');
@@ -60,6 +78,10 @@ const Navbar = props => {
     }
   }
 
+  window.onresize = () => {
+    checkSize();
+  }
+
   const toggleSubjects = scroll => {
     if (scroll === null) scroll = true; 
 
@@ -99,6 +121,14 @@ const Navbar = props => {
     updateComponents();
   }
 
+  const renderReturnBtn = () => {
+    return (
+      <div className="return-btn" onClick={() => window.scrollTo(0, 0)}>
+        <span className="fas fa-arrow-up"></span>
+      </div>
+    )
+  }
+
   return (
     <>
       {isOpen ? <Backdrop /> : null}
@@ -106,6 +136,8 @@ const Navbar = props => {
       <div className="toggle-btn" onClick={clickToggle}>
         <span className="fas fa-bars"></span>
       </div>
+ 
+      {(!isOpen & isMini) ? renderReturnBtn() : null}
 
       <nav className="navbar">
         <div className="title">

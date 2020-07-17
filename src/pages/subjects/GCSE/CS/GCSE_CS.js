@@ -33,7 +33,7 @@ const GCSE_CS = props => {
         </ul>
         <br />
         <h3>Paper 2 - 1hr 30mins [80 marks]</h3>
-        <em>Computational thinking, algorithms and programming (Component 2)</em>
+        <em>Computational thinking, algorithms & programming (Component 2)</em>
         <ul>
           <li>2.1 - Algorithms</li>
           <li>2.2 - Programming techniques</li>
