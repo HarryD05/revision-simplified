@@ -130,7 +130,7 @@ const Navbar = props => {
   }
 
   return (
-    <>
+    <div className="nav-container">
       {isOpen ? <Backdrop /> : null}
 
       <div className="toggle-btn" onClick={clickToggle}>
@@ -161,7 +161,7 @@ const Navbar = props => {
           { hashes ?  <li><HashLink id="notes" name="Notes" /></li>: null }
         </ul>
       </nav>
-    </>
+    </div>
   )
 }
 
