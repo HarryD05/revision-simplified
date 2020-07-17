@@ -7,6 +7,7 @@ import {LocationContext} from '../../context/LocationContext';
 
 //Components
 import HashLink from '../HashLink';
+import Backdrop from '../backdrop/Backdrop';
 
 //Styling
 import './navbar.scss';
@@ -16,8 +17,52 @@ const Navbar = props => {
   const hashes = (locContext.getCurrentSubject() === null) ? false : true;
 
   const [isSubjects, setIsSubjects] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const toggleSubjects = () => {
+  const updateComponents = () => {
+    let toggle = document.querySelector('.toggle-btn');
+    let nav = document.querySelector('nav');
+    let main = document.querySelector('main');
+    let bodyClasses = document.querySelector('body').classList;
+
+    if (isOpen) {
+      if (toggle) {
+        let toggleClasses = toggle.classList;
+        toggleClasses.remove('clicked');
+      }
+      if (nav) {
+        let navClasses = nav.classList;
+        navClasses.remove('show');
+      }
+      if (main) {
+        let mainClasses = main.classList;
+        mainClasses.add('full');
+      }
+
+      bodyClasses.remove('locked');
+      document.body.setAttribute('scroll', 'yes');
+    } else {
+      if (toggle) {
+        let toggleClasses = toggle.classList;
+        toggleClasses.add('clicked');
+      }
+      if (nav) {
+        let navClasses = nav.classList;
+        navClasses.add('show');
+      }
+      if (main) {
+        let mainClasses = main.classList;
+        mainClasses.remove('full');
+      }
+
+      bodyClasses.add('locked');
+      document.body.setAttribute('scroll', 'no');
+    }
+  }
+
+  const toggleSubjects = scroll => {
+    if (scroll === null) scroll = true; 
+
     setIsSubjects(!isSubjects);
 
     let caretClasses = document.querySelector('nav ul li a span').classList;
@@ -25,6 +70,10 @@ const Navbar = props => {
       caretClasses.remove('rotated');
     } else {
       caretClasses.add('rotated');
+    }
+
+    if (scroll) {
+      onClick();
     }
   }
 
@@ -37,29 +86,50 @@ const Navbar = props => {
     )
   }
 
+  const onClick = () => {
+    window.scrollTo(0, 0);
+
+    setIsOpen(false);
+    updateComponents();
+  }
+
+  const clickToggle = () => {
+    setIsOpen(!isOpen);
+
+    updateComponents();
+  }
+
   return (
-    <nav>
-      <div className="title">
-        <h1>Revision Simplified</h1>
+    <>
+      {isOpen ? <Backdrop /> : null}
+
+      <div className="toggle-btn" onClick={clickToggle}>
+        <span className="fas fa-bars"></span>
       </div>
 
-      <ul>
-        <li><NavLink to="/home">Home</NavLink></li>
-        <li>
-          {/* eslint-disable-next-line */}
-          <a className="subjects" onClick={toggleSubjects}>Subjects
-            <span className="fas fa-caret-down"></span>
-          </a> 
-          { isSubjects ? renderSubjectsDropdown() : null }
-        </li>
-        <li><NavLink to="/about">About me</NavLink></li>
+      <nav className="navbar">
+        <div className="title">
+          <h1>Revision Simplified</h1>
+        </div>
 
-        { hashes ? <span className="barrier"></span> : null }
-        { hashes ? <li><HashLink id="spec"  name="Spec." /></li> : null }
-        { hashes ? <li><HashLink id="res"   name="Resources" /> </li>: null }
-        { hashes ?  <li><HashLink id="notes" name="Notes" /></li>: null }
-      </ul>
-    </nav>
+        <ul>
+          <li><NavLink to="/home" onClick={onClick}>Home</NavLink></li>
+          <li>
+            {/* eslint-disable-next-line */}
+            <a className="subjects" onClick={() => toggleSubjects(false)}>Subjects
+              <span className="fas fa-caret-down"></span>
+            </a> 
+            { isSubjects ? renderSubjectsDropdown() : null }
+          </li>
+          <li><NavLink to="/about" onClick={onClick}>About me</NavLink></li>
+
+          { hashes ? <span className="barrier"></span> : null }
+          { hashes ? <li><HashLink id="spec"  name="Spec." /></li> : null }
+          { hashes ? <li><HashLink id="res"   name="Resources" /> </li>: null }
+          { hashes ?  <li><HashLink id="notes" name="Notes" /></li>: null }
+        </ul>
+      </nav>
+    </>
   )
 }
 

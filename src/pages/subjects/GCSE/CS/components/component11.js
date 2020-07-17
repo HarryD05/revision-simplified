@@ -4,13 +4,15 @@ const Component11 = () => {
   return (
     <div id="comp1_1" className="topic">
       <h4>Component 1.1 - System architecture (CPU)</h4>
-
+      
+      <div className="key-words">
       <p className="heading">Key Words</p>
       <ul>
         <li>Address - each memory location is identified by a unique one of these</li>
         <li>Architecture - a term that describes the content & layout of a processor e.g. Von Neumann or Harvard</li>
         <li>FDE cycle - this is repeated by a computer in order to carry out tasks</li>
       </ul>
+      </div>
 
       <p className="heading">Purpose of the CPU</p>
       <ul>
@@ -59,7 +61,7 @@ const Component11 = () => {
         </ul>
       </ul>
 
-      <p className="heading">Buses</p>
+      <p className="heading">Buses <em>(extra, but useful)</em></p>
       <ul>
         <li>The system bus contains 3 buses:</li>
         <ul>

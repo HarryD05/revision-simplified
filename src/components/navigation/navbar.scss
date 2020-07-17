@@ -2,6 +2,7 @@
   --nav-light: #292929;
 }
 
+
 nav {
   position: fixed;
   top: 0;
@@ -109,6 +110,50 @@ nav {
   }
 }
 
+@media (max-width: 768px) {
+  nav {
+    left: -251px;
+
+    transition: left 0.4s ease; 
+  }
+}
+
+.show {
+  left: 0;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+
+  height: 30px;
+  width: 30px;
+
+  border-radius: 8px;
+
+  background: #1b1b1b;
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: left 0.4s ease;
+
+  &.clicked {
+    left: 260px;
+
+    span:before {
+      content: '\f00d';
+    }
+  }
+
+  span {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
 
 
 /*.active {

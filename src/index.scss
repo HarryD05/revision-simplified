@@ -28,11 +28,24 @@ body {
   color: #000000;
 }
 
+body.locked { 
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
+}
+
 /* Main container */
 main {
   width: calc(100% - var(--nav-width) - 2rem);
   margin-left: var(--nav-width);
   padding: 1rem;
+
+  transition: all 0.4s ease;
+}
+
+.full {
+  width: calc(100% - 40px); 
+  margin-left: 40px;
 }
 
 /* Defaults for typography */
