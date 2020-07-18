@@ -12,7 +12,8 @@
  
   --table-even: #fff;
   --table-odd: #dbdbdb;
-  --table-head: #a09fff;
+  --table-head: #2724FF;
+  --table-title: #fff;
 
   --links: #471caa;
   --key-words: #00f;
@@ -23,9 +24,10 @@
   --text: #e2e2e2;
   --opposite: #000;
 
-  --table-even: #5c5c5c;
-  --table-odd: #777777;
-  --table-head: #2a8fb8;
+  --table-even: #4e4e4e;
+  --table-odd: #3b3b3b;
+  --table-head: #7f2ab8;
+  --table-title: #fff;
 
   --links: #bc9fff;
   --key-words: #9de8ff;
@@ -123,5 +125,5 @@ tr:nth-child(odd) {
 
 th {
   background-color: var(--table-head);
-  color: var(--text);
+  color: var(--table-title);
 }
