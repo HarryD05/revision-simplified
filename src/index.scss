@@ -3,8 +3,32 @@
 :root {
   --nav-width: 250px;
   --nav-bg: #222;
-  --title-size: 1.1rem;
   --primary: #66e8ff;
+  --title-size: 1.1rem;
+
+  --background: #fff;
+  --text: #000;
+  --opposite: #fff;
+ 
+  --table-even: #fff;
+  --table-odd: #dbdbdb;
+  --table-head: #a09fff;
+
+  --links: #471caa;
+  --key-words: #00f;
+}
+
+[data-theme="dark"] {
+  --background: #222;
+  --text: #e2e2e2;
+  --opposite: #000;
+
+  --table-even: #5c5c5c;
+  --table-odd: #777777;
+  --table-head: #2a8fb8;
+
+  --links: #bc9fff;
+  --key-words: #9de8ff;
 }
 
 /* Defaults */
@@ -24,8 +48,8 @@ body {
 
   font-family: 'Poppins', sans-serif;
 
-  background: #ffffff;
-  color: #000000;
+  background: var(--background);
+  color: var(--text);
 }
 
 body.locked { 
@@ -64,7 +88,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #471caa;
+  color: var(--links);
 }
 
 /* Table styling */
@@ -72,7 +96,7 @@ table {
   text-align: left;
   font-weight: normal;
 
-  color: black;
+  color: var(--text);
 
   border-collapse: collapse;
 
@@ -90,14 +114,14 @@ th, td {
 }
 
 tr:nth-child(even) {
-  background-color: #ffffff;
+  background-color: var(--table-even);
 }
 
 tr:nth-child(odd) {
-  background-color: #dbdbdb;
+  background-color: var(--table-odd);
 }
 
 th {
-  background-color: #a09fff;
-  color: #000000;
+  background-color: var(--table-head);
+  color: var(--text);
 }

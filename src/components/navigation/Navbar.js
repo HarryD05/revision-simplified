@@ -4,6 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 //Context
 import {LocationContext} from '../../context/LocationContext';
+import {ViewContext} from '../../context/ViewContext';
 
 //Components
 import HashLink from '../HashLink';
@@ -16,70 +17,52 @@ const Navbar = props => {
   const locContext = useContext(LocationContext);
   const hashes = (locContext.getCurrentSubject() === null) ? false : true;
 
+  const viewContext = useContext(ViewContext);
+
   const [isSubjects, setIsSubjects] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  
-  let isMini = (window.visualViewport.width <= 768) ? true : false;
-
-  const checkSize = () => {
-    isMini = (window.visualViewport.width <= 768) ? true : false;
-
-    let main = document.querySelector('main');
-
-    if (main) {
-      if (isMini) {
-        main.classList.add('full');
-      } else {
-        main.classList.remove('full');
-      }
-    }
-  }
-
-  checkSize();
 
   const updateComponents = () => {
-    let toggle = document.querySelector('.toggle-btn');
-    let nav = document.querySelector('nav');
-    let main = document.querySelector('main');
-    let bodyClasses = document.querySelector('body').classList;
+    if (viewContext.isMini) {
+      let toggle = document.querySelector('.toggle-btn');
+      let nav = document.querySelector('nav');
+      let main = document.querySelector('main');
+      let bodyClasses = document.querySelector('body').classList;
 
-    if (isOpen) {
-      if (toggle) {
-        let toggleClasses = toggle.classList;
-        toggleClasses.remove('clicked');
-      }
-      if (nav) {
-        let navClasses = nav.classList;
-        navClasses.remove('show');
-      }
-      if (main) {
-        let mainClasses = main.classList;
-        mainClasses.add('full');
-      }
+      if (isOpen) {
+        if (toggle) {
+          let toggleClasses = toggle.classList;
+          toggleClasses.remove('clicked');
+        }
+        if (nav) {
+          let navClasses = nav.classList;
+          navClasses.remove('show');
+        }
+        if (main) {
+          let mainClasses = main.classList;
+          mainClasses.add('full');
+        }
 
-      bodyClasses.remove('locked');
-      document.body.setAttribute('scroll', 'yes');
-    } else {
-      if (toggle) {
-        let toggleClasses = toggle.classList;
-        toggleClasses.add('clicked');
-      }
-      if (nav) {
-        let navClasses = nav.classList;
-        navClasses.add('show');
-      }
-      if (main) {
-        let mainClasses = main.classList;
-        mainClasses.remove('full');
-      }
+        bodyClasses.remove('locked');
+        document.body.setAttribute('scroll', 'yes');
+      } else {
+        if (toggle) {
+          let toggleClasses = toggle.classList;
+          toggleClasses.add('clicked');
+        }
+        if (nav) {
+          let navClasses = nav.classList;
+          navClasses.add('show');
+        }
+        if (main) {
+          let mainClasses = main.classList;
+          mainClasses.remove('full');
+        }
 
-      bodyClasses.add('locked');
-      document.body.setAttribute('scroll', 'no');
+        bodyClasses.add('locked');
+        document.body.setAttribute('scroll', 'no');
+      }
     }
-  }
-
-  window.onresize = () => {
-    checkSize();
   }
 
   const toggleSubjects = scroll => {
@@ -129,6 +112,21 @@ const Navbar = props => {
     )
   }
 
+  const renderDarkToggleBtn = () => {
+    let base = "fas fa-";
+    if (viewContext.isDark) { 
+      base += "sun";
+    } else {
+      base += "moon";
+    }
+
+    return (
+      <div className="dark-btn" onClick={() => viewContext.toggleIsDark()}>
+        <span className={base}></span>
+      </div>
+    )
+  }
+
   return (
     <div className="nav-container">
       {isOpen ? <Backdrop /> : null}
@@ -137,7 +135,9 @@ const Navbar = props => {
         <span className="fas fa-bars"></span>
       </div>
  
-      {(!isOpen & isMini) ? renderReturnBtn() : null}
+      {(!isOpen & viewContext.isMini) ? renderReturnBtn() : null}
+
+      {renderDarkToggleBtn()}
 
       <nav className="navbar">
         <div className="title">

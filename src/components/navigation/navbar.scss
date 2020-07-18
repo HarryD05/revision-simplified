@@ -135,7 +135,7 @@ nav {
 
   border-radius: 8px;
 
-  background: #1b1b1b;
+  background: var(--text);
 
   text-align: center;
 
@@ -152,7 +152,7 @@ nav {
   }
 
   span {
-    color: white;
+    color: var(--opposite);
     font-size: 20px;
     line-height: 30px;
   }
@@ -168,7 +168,7 @@ nav {
 
   border-radius: 8px;
 
-  background: #1b1b1b;
+  background: var(--text);
 
   text-align: center;
 
@@ -177,15 +177,43 @@ nav {
   transition: left 0.4s ease;
 
   span {
-    color: white;
+    color: var(--opposite);
     font-size: 20px;
     line-height: 30px;
   }
 }
 
+.dark-btn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  
 
-/*.active {
-  color: white;
-  border-left: 3px solid white;
-  background: var(--nav-light);
-}*/
+  height: 30px;
+  width: 30px;
+
+  border-radius: 8px;
+
+  background: var(--text);
+
+  text-align: center;
+
+  cursor: pointer;
+
+  transition: left 0.4s ease;
+
+  span {
+    color: var(--opposite);
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .dark-btn {
+    position: fixed;
+    top: 85px;
+    left: 15px;
+    right: 0;
+  }
+}
