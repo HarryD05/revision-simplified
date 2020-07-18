@@ -19,7 +19,7 @@ const GCSE_RE = props => {
       <h3>Edexcel B 2016 (1RB0 - ZB)</h3>
 
       <div id="spec">
-        <h2>Specification at a glance</h2>
+        <h2>SPECIFICATION AT A GLANCE</h2>
         <h3>Paper 1 - 1hr 45mins [102 marks]</h3>
         <em>Islam (1C)</em>
         <ul>
@@ -40,7 +40,7 @@ const GCSE_RE = props => {
       </div>
 
       <div id="res">
-        <h2>Resources</h2>
+        <h2>RESOURCES</h2>
         <p>I mainly used my exercise book, just summarised my notes but...</p>
         <p>Books I used:</p> 
         <ul>
@@ -58,7 +58,7 @@ const GCSE_RE = props => {
       </div>
 
       <div id="notes">
-      <h2>My Revision Notes</h2>
+      <h2>MY REVISION NOTES</h2>
         <Islam1 />
         <h4>Islam - Marriage & the Family</h4>
         <h4>Islam - Living the Muslim Life</h4>

@@ -18,7 +18,7 @@ const GCSE_CS = props => {
       <h3>OCR (J726)</h3>
 
       <div id="spec">
-        <h2>Specification at a glance</h2>
+        <h2>SPECIFICATION AT A GLANCE</h2>
         <h3>Paper 1 - 1hr 30mins [80 marks]</h3>
         <em>Computer Systems (Component 1)</em>
         <ul>
@@ -45,7 +45,7 @@ const GCSE_CS = props => {
       </div>
 
       <div id="res">
-        <h2>Resources</h2>
+        <h2>RESOURCES</h2>
         <p>Books I used:</p> 
         <ul>
           <li>
@@ -68,7 +68,7 @@ const GCSE_CS = props => {
       </div>
 
       <div id="notes">
-        <h2>My Revision Notes</h2>
+        <h2>MY REVISION NOTES</h2>
         <Component11 />
         <h4>Component 1.2 - Memory</h4>
         <h4>Component 1.3 - Storage</h4>
