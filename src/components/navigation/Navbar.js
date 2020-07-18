@@ -155,10 +155,10 @@ const Navbar = props => {
           </li>
           <li><NavLink to="/about" onClick={onClick}>About me</NavLink></li>
 
-          { hashes ? <span className="barrier"></span> : null }
-          { hashes ? <li><HashLink id="spec"  name="Spec." /></li> : null }
-          { hashes ? <li><HashLink id="res"   name="Resources" /> </li>: null }
-          { hashes ?  <li><HashLink id="notes" name="Notes" /></li>: null }
+          { (hashes && !viewContext.isMini) ? <span className="barrier"></span> : null }
+          { (hashes && !viewContext.isMini) ? <li><HashLink id="spec"  name="Spec."     /></li> : null }
+          { (hashes && !viewContext.isMini) ? <li><HashLink id="res"   name="Resources" /></li> : null }
+          { (hashes && !viewContext.isMini) ? <li><HashLink id="notes" name="Notes"     /></li> : null }
         </ul>
       </nav>
     </div>
