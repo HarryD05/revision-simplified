@@ -26,7 +26,7 @@ const Home = props => {
         <tbody>
           <tr>
             <td>RE</td>
-            <td>Edexcel B 2016 (ZB - 1C, 2B)</td>
+            <td>Edexcel B 2016 (ZB - 1C & 2B)</td>
             <td>Coming 20-Aug-2020</td>
           </tr>
           <tr>

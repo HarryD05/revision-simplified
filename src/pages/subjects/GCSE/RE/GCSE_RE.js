@@ -16,7 +16,7 @@ const GCSE_RE = props => {
   return (
     <div className="subject">
       <h1>GCSE RE</h1>
-      <h3>Edexcel B 2016 (1RB0 - ZB)</h3>
+      <h3>Edexcel B 2016 (ZB - 1C & 2B)</h3>
 
       <div id="spec">
         <h2>SPECIFICATION AT A GLANCE</h2>

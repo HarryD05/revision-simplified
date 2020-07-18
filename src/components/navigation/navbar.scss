@@ -160,8 +160,8 @@ nav {
 
 .return-btn {
   position: fixed;
-  top: 50px;
-  left: 15px;
+  top: 15px;
+  right: 50px;
 
   height: 30px;
   width: 30px;
@@ -213,6 +213,13 @@ nav {
   .dark-btn {
     position: fixed;
     top: 85px;
+    left: 15px;
+    right: 0;
+  }
+  
+  .return-btn {
+    position: fixed;
+    top: 50px;
     left: 15px;
     right: 0;
   }

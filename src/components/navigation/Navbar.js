@@ -135,7 +135,7 @@ const Navbar = props => {
         <span className="fas fa-bars"></span>
       </div>
  
-      {(!isOpen & viewContext.isMini) ? renderReturnBtn() : null}
+      {(!isOpen || !viewContext.isMini) ? renderReturnBtn() : null}
 
       {renderDarkToggleBtn()}
 
@@ -148,7 +148,7 @@ const Navbar = props => {
           <li><NavLink to="/home" onClick={onClick}>Home</NavLink></li>
           <li>
             {/* eslint-disable-next-line */}
-            <a className="subjects" onClick={() => toggleSubjects(false)}>Subjects
+            <a className="subjects" onClick={() => toggleSubjects(false)}>GCSE Subjects
               <span className="fas fa-caret-down"></span>
             </a> 
             { isSubjects ? renderSubjectsDropdown() : null }
