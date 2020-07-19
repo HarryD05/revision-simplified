@@ -19,6 +19,7 @@ h4 {
 ul {
   padding-bottom: 0;
   line-height: 1.6rem;
+  padding-left: 1rem;
 
   li {
     a {
@@ -47,4 +48,12 @@ ol {
   .heading {
     margin-top: 0;
   }
+}
+
+.advantages {
+  color: var(--positives);
+}
+
+.disadvantages {
+  color: var(--negatives);
 }
