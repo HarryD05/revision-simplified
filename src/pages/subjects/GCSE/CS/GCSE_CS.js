@@ -24,7 +24,7 @@ const GCSE_CS = props => {
       <div id="spec">
         <h2>SPECIFICATION AT A GLANCE</h2>
         <h3>Paper 1 - 1hr 30mins [80 marks]</h3>
-        <em>Computer Systems (Component 1)</em>
+        <b>Computer Systems (Component 1)</b>
         <ul>
           <li><HashLink id="comp1_1" name="1.1" /> - System architecture (CPU)</li>
           <li><HashLink id="comp1_2" name="1.2" /> - Memory</li>
@@ -37,7 +37,7 @@ const GCSE_CS = props => {
         </ul>
         <br />
         <h3>Paper 2 - 1hr 30mins [80 marks]</h3>
-        <em>Computational thinking, algorithms & programming (Component 2)</em>
+        <b>Computational thinking, algorithms & programming (Component 2)</b>
         <ul>
           <li>2.1 - Algorithms</li>
           <li>2.2 - Programming techniques</li>
@@ -50,7 +50,7 @@ const GCSE_CS = props => {
 
       <div id="res">
         <h2>RESOURCES</h2>
-        <p>Books I used:</p> 
+        <b>Books I used:</b> 
         <ul>
           <li>
             <a href="https://www.cgpbooks.co.uk/secondary-books/gcse/computer-science/cor41-gcse-computer-science-ocr-revision-guide" target="__blank" el="noopener noreferrer">CGP revision guide</a>
@@ -60,13 +60,19 @@ const GCSE_CS = props => {
           </li>
         </ul>
 
-        <p>Websites I used:</p>
+        <b>Websites I used:</b>
         <ul>
           <li>
             <a href="http://www.teach-ict.co.uk/2016/GCSE_Computing/OCR_J276/OCR_J276_home.html" target="__blank" el="noopener noreferrer">Teach-ICT</a>
           </li>
           <li>
             <a href="https://www.bbc.co.uk/bitesize/examspecs/zmtchbk" target="__blank" el="noopener noreferrer">BBC Bitesize</a>
+          </li>
+          <li>
+            <a href="https://www.senecalearning.com/" target="__blank" el="noopener noreferrer">Seneca Learning</a> (really useful to test your knowledge)
+          </li>
+          <li>
+            <a href="https://www.gcsepod.com/" target="__blank" el="noopener noreferrer">GCSE Pod</a> (I would watch pods the night before & morning of a test to refresh my memory)
           </li>
         </ul>
       </div>

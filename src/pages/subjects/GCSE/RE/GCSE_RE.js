@@ -21,7 +21,7 @@ const GCSE_RE = props => {
       <div id="spec">
         <h2>SPECIFICATION AT A GLANCE</h2>
         <h3>Paper 1 - 1hr 45mins [102 marks]</h3>
-        <em>Islam (1C)</em>
+        <b>Islam (1C)</b>
         <ul>
           <li><HashLink id="islam1" name="1a" /> - Belief in Allah</li>
           <li>1b - Marriage & the Family</li>
@@ -30,7 +30,7 @@ const GCSE_RE = props => {
         </ul>
         <br />
         <h3>Paper 2 - 1hr 45mins [102 marks]</h3>
-        <em>Christianity (2B)</em>
+        <b>Christianity (2B)</b>
         <ul>
           <li>2a - Belief in God</li>
           <li>2b - Crime & Punishment</li>
@@ -42,17 +42,20 @@ const GCSE_RE = props => {
       <div id="res">
         <h2>RESOURCES</h2>
         <p>I mainly used my exercise book, just summarised my notes but...</p>
-        <p>Books I used:</p> 
+        <b>Books I used:</b> 
         <ul>
           <li>
-            <a href="https://www.pearsonschoolsandfecolleges.co.uk/secondary/ReligiousEducationandCitizenship/14-16forEdexcel/EdexcelGCSE91ReligiousStudiesSpecB/ISBN/Revision/ReviseEdexcelGCSE91ReligiousStudiesChristianityIslamRevisionGuide.aspx" target="__blank" el="noopener noreferrer">Pearson revision guide </a> (contains all possible topics so can ignore around half!)
+            <a href="https://www.pearsonschoolsandfecolleges.co.uk/secondary/ReligiousEducationandCitizenship/14-16forEdexcel/EdexcelGCSE91ReligiousStudiesSpecB/ISBN/Revision/ReviseEdexcelGCSE91ReligiousStudiesChristianityIslamRevisionGuide.aspx" target="__blank" el="noopener noreferrer">Pearson revision guide </a> (contains all possible topics for both religions so can ignore around half!)
           </li>
         </ul>
 
-        <p>Websites I used:</p>
+        <b>Websites I used:</b>
         <ul>
           <li>
             <a href="https://www.bbc.co.uk/bitesize/examspecs/zm9pd6f" target="__blank" el="noopener noreferrer">BBC Bitesize</a> (of some use)
+          </li>
+          <li>
+            <a href="https://quizlet.com/" target="__blank" el="noopener noreferrer">Quizlet</a> (made flash cards that summarised subtopics)
           </li>
         </ul>
       </div>
