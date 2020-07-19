@@ -94,7 +94,7 @@ const Component13 = () => {
       <p className="heading">Ranking of storage media</p>
       <ul>
         <li><b>Read/write speed</b> <em>(slowest -&gt; fastest)</em></li>
-        <ol>
+        <ol reversed>
           <li>Opitcal disc</li>
           <li>SD card</li>
           <li>Magnetic tape</li>
@@ -103,7 +103,7 @@ const Component13 = () => {
         </ol>
 
         <li><b>Cost per GB</b> <em>(cheapest -&gt; priciest)</em></li>
-        <ol>
+        <ol reversed>
           <li>Magnetic tape</li>
           <li>Opitcal disc</li>
           <li>Hard Disc Drive (HDD)</li>
@@ -112,7 +112,7 @@ const Component13 = () => {
         </ol>
 
         <li><b>Capacity</b> <em>(lowest -&gt; highest)</em></li>
-        <ol>
+        <ol reversed>
           <li>Opitcal disc</li>
           <li>SD card</li>
           <li>Solid State Drive (SSD)</li>

@@ -106,7 +106,7 @@ const Navbar = props => {
 
   const renderReturnBtn = () => {
     return (
-      <div className="return-btn" onClick={() => window.scrollTo(0, 0)}>
+      <div className="overlay-btn return-btn" onClick={() => window.scrollTo(0, 0)}>
         <span className="fas fa-arrow-up"></span>
       </div>
     )
@@ -121,7 +121,7 @@ const Navbar = props => {
     }
 
     return (
-      <div className="dark-btn" onClick={() => viewContext.toggleIsDark()}>
+      <div className="overlay-btn dark-btn" onClick={() => viewContext.toggleIsDark()}>
         <span className={base}></span>
       </div>
     )
@@ -131,7 +131,7 @@ const Navbar = props => {
     <div className="nav-container">
       {isOpen ? <Backdrop /> : null}
 
-      <div className="toggle-btn" onClick={clickToggle}>
+      <div className="overlay-btn toggle-btn" onClick={clickToggle}>
         <span className="fas fa-bars"></span>
       </div>
  

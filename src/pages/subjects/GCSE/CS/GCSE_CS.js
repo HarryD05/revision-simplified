@@ -4,6 +4,8 @@ import React from 'react';
 import Component11 from './components/component11';
 import Component12 from './components/component12';
 import Component13 from './components/component13';
+import Component14 from './components/component14';
+import Component15 from './components/component15';
 
 //Components 
 import HashLink from '../../../../components/HashLink';
@@ -27,8 +29,8 @@ const GCSE_CS = props => {
           <li><HashLink id="comp1_1" name="1.1" /> - System architecture (CPU)</li>
           <li><HashLink id="comp1_2" name="1.2" /> - Memory</li>
           <li><HashLink id="comp1_3" name="1.3" /> - Storage</li>
-          <li>1.4 - Wired & wireless networks</li>
-          <li>1.5 - Network topologies, protocols & layers</li>
+          <li><HashLink id="comp1_4" name="1.4" /> - Wired & wireless networks</li>
+          <li><HashLink id="comp1_5" name="1.5" /> - Network topologies, protocols & layers</li>
           <li>1.6 - System security</li>
           <li>1.7 - System software</li>
           <li>1.8 - Ethical, legal, cultural & environmental concerns</li>
@@ -74,8 +76,8 @@ const GCSE_CS = props => {
         <Component11 />
         <Component12 />
         <Component13 />
-        <h4>Component 1.4 - Wired & wireless networks</h4>
-        <h4>Component 1.5 - Network topologies, protocols & layers</h4>
+        <Component14 />
+        <Component15 />
         <h4>Component 1.6 - System security</h4>
         <h4>Component 1.7 - System software</h4>
         <h4>Component 1.8 - Ethical, legal, cultural & environmental concerns</h4>

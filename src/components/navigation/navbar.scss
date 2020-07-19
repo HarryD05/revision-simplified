@@ -125,11 +125,7 @@ nav {
   left: 0;
 }
 
-.toggle-btn {
-  position: fixed;
-  top: 15px;
-  left: 15px;
-
+.overlay-btn {
   height: 30px;
   width: 30px;
 
@@ -137,11 +133,18 @@ nav {
 
   background: var(--text);
 
-  text-align: center;
+  display: grid;
+  place-content: center;
 
   cursor: pointer;
 
   transition: left 0.4s ease;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
 
   &.clicked {
     left: 260px;
@@ -163,19 +166,6 @@ nav {
   top: 15px;
   right: 50px;
 
-  height: 30px;
-  width: 30px;
-
-  border-radius: 8px;
-
-  background: var(--text);
-
-  text-align: center;
-
-  cursor: pointer;
-
-  transition: left 0.4s ease;
-
   span {
     color: var(--opposite);
     font-size: 20px;
@@ -188,20 +178,6 @@ nav {
   top: 15px;
   right: 15px;
   
-
-  height: 30px;
-  width: 30px;
-
-  border-radius: 8px;
-
-  background: var(--text);
-
-  text-align: center;
-
-  cursor: pointer;
-
-  transition: left 0.4s ease;
-
   span {
     color: var(--opposite);
     font-size: 20px;
