@@ -21,10 +21,18 @@ ul {
   line-height: 1.6rem;
   padding-left: 1rem;
 
+  
+
   li {
     a {
       font-weight: 700;
     }
+  }
+}
+
+@media (max-width: 768px) {
+  ul {
+    padding-left: 0;
   }
 }
 
