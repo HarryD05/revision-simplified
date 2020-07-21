@@ -46,8 +46,8 @@ const Component13 = () => {
         <li><b>Optical</b></li>
         <ul>
           <li>Data is stored as tiny indentations on a reflective disk surface, read by lasers</li>
-          <li>Advantages: cheap & portable</li>
-          <li>Disadvantages: limited capacity, not durable (easily scratched)</li>
+          <li className="advantages"><b>Advantages:</b> cheap & portable</li>
+          <li className="disadvantages"><b>Disadvantages:</b> limited capacity, not durable (easily scratched)</li>
           <li>Common use: storing music, video games, videos</li>
           
           <li>Main storage media & capacity</li>
@@ -68,8 +68,8 @@ const Component13 = () => {
         <li><b>Magnetic</b></li>
         <ul>
           <li>Data is stored magnetically in small areas (sectors) within circular tracks</li>
-          <li>Advantages: high capacity for low cost, fast access, reliable</li>
-          <li>Disadvantages: complex moving parts (not durable if dropped) & large physical size (not very portable)</li>
+          <li className="advantages"><b>Advantages:</b> high capacity for low cost, fast access, reliable</li>
+          <li className="disadvantages"><b>Disadvantages:</b> complex moving parts (not durable if dropped) & large physical size (not very portable)</li>
           <li>Common use: PCs, network storage, backups</li>
           <li>Main storage media & capacity</li>
           <ul>
@@ -80,8 +80,8 @@ const Component13 = () => {
         <li><b>Solid State</b></li>
         <ul>
           <li>Data stored on a grid of electrical cells divided into sections (pages) use flash memory</li>
-          <li>Advantages: fast speed, no moving parts (durable), portable (small size)</li>
-          <li>Disadvantages: more expensive per GB than over 2, wears out overtime (no reliable)</li>
+          <li className="advantages"><b>Advantages:</b> fast speed, no moving parts (durable), portable (small size)</li>
+          <li className="disadvantages"><b>Disadvantages:</b> more expensive per GB than over 2, wears out overtime (no reliable)</li>
           <li>Common use: smartphone & camera storage, laptop Hard drives</li>
           <li>Main storage media & capacity</li>
           <ul>

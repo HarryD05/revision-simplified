@@ -6,6 +6,9 @@ import Component12 from './components/component12';
 import Component13 from './components/component13';
 import Component14 from './components/component14';
 import Component15 from './components/component15';
+import Component16 from './components/component16';
+import Component17 from './components/component17';
+
 
 //Components 
 import HashLink from '../../../../components/HashLink';
@@ -31,8 +34,8 @@ const GCSE_CS = props => {
           <li><HashLink id="comp1_3" name="1.3" /> - Storage</li>
           <li><HashLink id="comp1_4" name="1.4" /> - Wired & wireless networks</li>
           <li><HashLink id="comp1_5" name="1.5" /> - Network topologies, protocols & layers</li>
-          <li>1.6 - System security</li>
-          <li>1.7 - System software</li>
+          <li><HashLink id="comp1_6" name="1.6" /> - System security</li>
+          <li><HashLink id="comp1_7" name="1.7" /> - System software</li>
           <li>1.8 - Ethical, legal, cultural & environmental concerns</li>
         </ul>
         <br />
@@ -66,7 +69,7 @@ const GCSE_CS = props => {
             <a href="http://www.teach-ict.co.uk/2016/GCSE_Computing/OCR_J276/OCR_J276_home.html" target="__blank" el="noopener noreferrer">Teach-ICT</a>
           </li>
           <li>
-            <a href="https://www.bbc.co.uk/bitesize/examspecs/zmtchbk" target="__blank" el="noopener noreferrer">BBC Bitesize</a>
+            <a href="https://www.bbc.co.uk/bitesize/examspecs/zmtchbk" target="__blank" el="noopener noreferrer">BBC Bitesize</a> (has lots of uneeded content for OCR & in a very odd order!)
           </li>
           <li>
             <a href="https://www.senecalearning.com/" target="__blank" el="noopener noreferrer">Seneca Learning</a> (really useful to test your knowledge)
@@ -84,8 +87,8 @@ const GCSE_CS = props => {
         <Component13 />
         <Component14 />
         <Component15 />
-        <h4>Component 1.6 - System security</h4>
-        <h4>Component 1.7 - System software</h4>
+        <Component16 />
+        <Component17 />
         <h4>Component 1.8 - Ethical, legal, cultural & environmental concerns</h4>
       
         <h4>Component 2.1 - Algorithms</h4>
