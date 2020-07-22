@@ -26,7 +26,6 @@ const Navbar = props => {
     if (viewContext.isMini) {
       let toggle = document.querySelector('.toggle-btn');
       let nav = document.querySelector('nav');
-      let main = document.querySelector('main');
       let bodyClasses = document.querySelector('body').classList;
 
       if (isOpen) {
@@ -37,10 +36,6 @@ const Navbar = props => {
         if (nav) {
           let navClasses = nav.classList;
           navClasses.remove('show');
-        }
-        if (main) {
-          let mainClasses = main.classList;
-          mainClasses.add('full');
         }
 
         bodyClasses.remove('locked');
@@ -53,10 +48,6 @@ const Navbar = props => {
         if (nav) {
           let navClasses = nav.classList;
           navClasses.add('show');
-        }
-        if (main) {
-          let mainClasses = main.classList;
-          mainClasses.remove('full');
         }
 
         bodyClasses.add('locked');

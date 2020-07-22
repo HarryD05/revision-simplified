@@ -70,15 +70,11 @@ body.locked {
 /* Main container */
 main {
   width: calc(100% - var(--nav-width) - 2rem);
-  margin-left: var(--nav-width);
+  width: calc(100% - 40px); 
+  margin-left: 40px;
   padding: 1rem;
 
   transition: all 0.4s ease;
-}
-
-.full {
-  width: calc(100% - 40px); 
-  margin-left: 40px;
 }
 
 /* Defaults for typography */

@@ -27,7 +27,7 @@ const App = () => {
     <Router>
       <Navbar />
 
-      <main className="full">
+      <main>
         <Switch>
           <Redirect from="/" to="/home" exact />
           <Route exact path="/home" component={Home} />
