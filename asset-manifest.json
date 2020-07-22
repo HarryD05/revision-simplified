@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/revision-simplified/static/css/main.dda08b27.chunk.css",
-    "main.js": "/revision-simplified/static/js/main.9fc808c3.chunk.js",
-    "main.js.map": "/revision-simplified/static/js/main.9fc808c3.chunk.js.map",
+    "main.js": "/revision-simplified/static/js/main.52454d82.chunk.js",
+    "main.js.map": "/revision-simplified/static/js/main.52454d82.chunk.js.map",
     "runtime-main.js": "/revision-simplified/static/js/runtime-main.c37bf463.js",
     "runtime-main.js.map": "/revision-simplified/static/js/runtime-main.c37bf463.js.map",
     "static/js/2.ed6ed66d.chunk.js": "/revision-simplified/static/js/2.ed6ed66d.chunk.js",
     "static/js/2.ed6ed66d.chunk.js.map": "/revision-simplified/static/js/2.ed6ed66d.chunk.js.map",
     "index.html": "/revision-simplified/index.html",
-    "precache-manifest.16e22e1b3a648bebcae77d689523d90a.js": "/revision-simplified/precache-manifest.16e22e1b3a648bebcae77d689523d90a.js",
+    "precache-manifest.92a80496f32f56b7923ae0571792307c.js": "/revision-simplified/precache-manifest.92a80496f32f56b7923ae0571792307c.js",
     "service-worker.js": "/revision-simplified/service-worker.js",
     "static/css/main.dda08b27.chunk.css.map": "/revision-simplified/static/css/main.dda08b27.chunk.css.map",
     "static/js/2.ed6ed66d.chunk.js.LICENSE.txt": "/revision-simplified/static/js/2.ed6ed66d.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c37bf463.js",
     "static/js/2.ed6ed66d.chunk.js",
     "static/css/main.dda08b27.chunk.css",
-    "static/js/main.9fc808c3.chunk.js"
+    "static/js/main.52454d82.chunk.js"
   ]
 }
