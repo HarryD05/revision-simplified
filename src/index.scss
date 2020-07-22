@@ -10,8 +10,8 @@
   --text: #000;
   --opposite: #fff;
  
-  --table-even: #fff;
-  --table-odd: #dbdbdb;
+  --table-odd: #fff;
+  --table-even: #dbdbdb;
   --table-head: #2724FF;
   --table-title: #fff;
 
@@ -26,8 +26,8 @@
   --text: #ececec;
   --opposite: #000;
 
-  --table-even: #4e4e4e;
-  --table-odd: #3b3b3b;
+  --table-odd: #4e4e4e;
+  --table-even: #3b3b3b;
   --table-head: #7f2ab8;
   --table-title: #fff;
 
@@ -122,6 +122,10 @@ table, th, td {
 
 th, td {
   padding: 0.5rem;
+}
+
+td {
+  vertical-align: top;
 }
 
 tr:nth-child(even) {

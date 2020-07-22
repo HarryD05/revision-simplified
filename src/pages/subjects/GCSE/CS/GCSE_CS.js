@@ -8,7 +8,7 @@ import Component14 from './components/component14';
 import Component15 from './components/component15';
 import Component16 from './components/component16';
 import Component17 from './components/component17';
-
+import Component18 from './components/component18';
 
 //Components 
 import HashLink from '../../../../components/HashLink';
@@ -36,7 +36,7 @@ const GCSE_CS = props => {
           <li><HashLink id="comp1_5" name="1.5" /> - Network topologies, protocols & layers</li>
           <li><HashLink id="comp1_6" name="1.6" /> - System security</li>
           <li><HashLink id="comp1_7" name="1.7" /> - System software</li>
-          <li>1.8 - Ethical, legal, cultural & environmental concerns</li>
+          <li><HashLink id="comp1_8" name="1.8" /> - Ethical, legal, cultural & environmental concerns</li>
         </ul>
         <br />
         <h3>Paper 2 - 1hr 30mins [80 marks]</h3>
@@ -89,7 +89,7 @@ const GCSE_CS = props => {
         <Component15 />
         <Component16 />
         <Component17 />
-        <h4>Component 1.8 - Ethical, legal, cultural & environmental concerns</h4>
+        <Component18 />
       
         <h4>Component 2.1 - Algorithms</h4>
         <h4>Component 2.2 - Programming techniques</h4>

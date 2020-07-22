@@ -9,8 +9,8 @@ const Component17 = () => {
       <p className="heading">KEY WORDS</p>
       <ul>
         <li><b>Device driver</b> - software that enables particular hardware to communicate with the rest of the computer system</li>
-        <li><b>Operating system</b> - definition</li>
-        <li><b>Utility Software</b> - definition</li>
+        <li><b>Operating system</b> - software which manages a systems’ files, processes & resources</li>
+        <li><b>Utility Software</b> - a program designed to help analyse, configure, optimise or maintain a computer system</li>
       </ul>
       </div>
 
