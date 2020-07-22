@@ -69,13 +69,17 @@ body.locked {
 
 /* Main container */
 main {
-  width: calc(100% - var(--nav-width) - 2rem);
   width: calc(100% - 40px); 
   margin-left: 40px;
   padding: 1rem;
 
-  transition: all 0.4s ease;
+  @media (min-width: 769px) {
+    width: calc(100% - var(--nav-width) - 2rem);
+    margin-left: var(--nav-width);
+  }
 }
+
+
 
 /* Defaults for typography */
 h1, h2, h3, p, ul, li {
