@@ -14,17 +14,17 @@ const About = props => {
 
       <h2>GCSEs</h2>
       <ul>
-        <li>2020 - I took 2 GCSEs: RE and computer science (due to Covid-19 these results will be based on predicted grades)</li>  
-        <li>2021 - I will taking the other 9: English Literature & Language, Maths, Triple Science, Geography, History & Spanish</li>
+        <li><b>2020</b> - I took 2 GCSEs: RE and computer science (due to Covid-19 these results will be based on predicted grades)</li>  
+        <li><b>2021</b> - I will taking the other 9: English Literature & Language, Maths, Triple Science, Geography, History & Spanish</li>
       </ul>
       
       <h2>A-Levels</h2>
-      <p>I am currently thinking of taking</p>
+      <p>I am currently thinking of taking...</p>
       <ul>
         <li>Computer Science</li>
         <li>Maths</li>
         <li>Further Maths</li>
-        <li>An EPQ or Physics</li>
+        <li>(maybe) an EPQ or Physics</li>
       </ul>
     </div>
   )

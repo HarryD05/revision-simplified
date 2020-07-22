@@ -112,25 +112,25 @@ const Component11 = () => {
         <li><b>Fetch-Decode-Execute Cycle </b></li>
         <ul>
           <li><b>Fetch</b></li>
-          <ul>
+          <ol>
             <li>Program counter increments by 1</li>
             <li>Contents of the PC transferred to the MAR</li>
             <li>Address transferred via. the address bus to main memory (RAM)</li>
-          </ul>
+          </ol>
 
           <li><b>Decode</b></li>
-          <ul>
+          <ol start={4}>
             <li>The data/instruction that has been addressed is transferred via. the data bus back to the processor</li>
             <li>This is held in the MDR</li>
             <li>Then transferred to the CIR</li>
-          </ul>
+          </ol>
 
           <li><b>Execute</b></li>
-          <ul>
+          <ol start={7}>
             <li>The data/instruction is decoded by the CIR</li>
             <li>The instruction is split into the Opcode & Operand</li>
             <li>The instruction is carried out by the ALU or CU</li>
-          </ul>
+          </ol>
         </ul>
       </ul>
 
@@ -138,15 +138,15 @@ const Component11 = () => {
       <ul>
         <li><b>Clock speed</b></li>
         <ul>
-          <li>o	The higher the clock speed the more instructions can be carried out per second (per core)</li>
-          <li>o	E.g. double clock speed, double amount Hz</li>
+          <li>The higher the clock speed the more instructions can be carried out per second (per core)</li>
+          <li>E.g. double clock speed, double amount Hz</li>
         </ul>
 
         <li><b>Number of cores</b></li>
         <ul>
-          <li>o	Each core in a CPU can process data independently</li>
-          <li>o	E.g. double number of cores may double speed, however threading (connections) reduce speed & tasks need to be designed for multi-core</li>
-          <li>o	Most devices contain 4-cores nowadays</li>
+          <li>Each core in a CPU can process data independently</li>
+          <li>E.g. double number of cores may double speed, however threading (connections) reduce speed & tasks need to be designed for multi-core</li>
+          <li>Most devices contain 4-cores nowadays</li>
         </ul>
 
         <li><b>Cache size</b></li>

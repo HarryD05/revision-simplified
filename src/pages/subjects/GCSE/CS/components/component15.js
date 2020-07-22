@@ -232,29 +232,29 @@ const Component15 = () => {
         <li>Controlled by the router directing data onto the Internet (or any WAN from LAN) using IP addresses</li>
         <li>When sending data packet switching is used (e.g. opening a link on a web browser)</li>
         <li><b>Process</b></li>
-        <ul>
+        <ol>
           <li>Request split into equally sized packets (the data in the packet is called the payload)</li>
           <li>Packet labelled with a header:</li>
-          <ul>
+          <ol type="a">
             <li>Sender & receiver IP address</li>
             <li>Number (order) in bundle & number of packets in bundle</li>
             <li>Checksum number (validation)</li>
-          </ul>
+          </ol>
 
           <li>Router sends packets across network</li>
           <li>Host server receives packets</li>
           <li>Server checks if all packets received (and checksum digits match)</li>
           <li>If not...</li>
-          <ul>
+          <ol type="a">
             <li>Time out error sent to request a resend of packets (if not received after a given time)</li>
-          </ul>
+          </ol>
 
           <li>If they have...</li>
-          <ul>
+          <ol type="a">
             <li>packets put in order</li>
             <li>request process by host (e.g. the webserver which would then send the website to the browser for it to be displayed on the client's screen)</li>
-          </ul>
-        </ul>
+          </ol>
+        </ol>
         <li>Packets have 2 parts: the payload (data) & header (the 5 labels)</li>
 
         <div className="advantages">
