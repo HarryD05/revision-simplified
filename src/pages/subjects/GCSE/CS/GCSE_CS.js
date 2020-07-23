@@ -9,6 +9,12 @@ import Component15 from './components/component15';
 import Component16 from './components/component16';
 import Component17 from './components/component17';
 import Component18 from './components/component18';
+import Component21 from './components/component21';
+import Component22 from './components/component22';
+import Component23 from './components/component23';
+import Component24 from './components/component24';
+import Component25 from './components/component25';
+import Component26 from './components/component26';
 
 //Components 
 import HashLink from '../../../../components/HashLink';
@@ -42,12 +48,12 @@ const GCSE_CS = props => {
         <h3>Paper 2 - 1hr 30mins [80 marks]</h3>
         <b>Computational thinking, algorithms & programming (Component 2)</b>
         <ul>
-          <li>2.1 - Algorithms</li>
-          <li>2.2 - Programming techniques</li>
-          <li>2.3 - Building robust programs</li>
-          <li>2.4 - Computational logic</li>
-          <li>2.5 - Translators & facilites</li>
-          <li>2.6 - Data representation</li>
+          <li><HashLink id="comp2_1" name="2.1" /> - Algorithms</li>
+          <li><HashLink id="comp2_2" name="2.2" /> - Programming techniques</li>
+          <li><HashLink id="comp2_3" name="2.3" /> - Building robust programs</li>
+          <li><HashLink id="comp2_4" name="2.4" /> - Computational logic</li>
+          <li><HashLink id="comp2_5" name="2.5" /> - Translators & facilites</li>
+          <li><HashLink id="comp2_6" name="2.6" />- Data representation</li>
         </ul>
       </div>
 
@@ -91,12 +97,12 @@ const GCSE_CS = props => {
         <Component17 />
         <Component18 />
       
-        <h4>Component 2.1 - Algorithms</h4>
-        <h4>Component 2.2 - Programming techniques</h4>
-        <h4>Component 2.3 - Building robust programs</h4>
-        <h4>Component 2.4 - Computational logic</h4>
-        <h4>Component 2.5 - Translators & facilites</h4>
-        <h4>Component 2.6 - Data representation</h4>
+        <Component21 />
+        <Component22 />
+        <Component23 />
+        <Component24 />
+        <Component25 />
+        <Component26 />
       </div>
     </div>
   )
