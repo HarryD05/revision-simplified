@@ -21,7 +21,7 @@ const Component15 = () => {
       <ul>
         <li><b>Star</b></li>
         <ul>
-          <li>o	All devices connected to a central switch</li>
+          <li>All devices connected to a central switch</li>
           <div className="advantages">
             <li><b>Advantages</b></li>
             <ul>
@@ -89,8 +89,8 @@ const Component15 = () => {
 
         <li><b>Encryption</b></li>
         <ul>
-          <li>o	Data is translated into code only the correct key can access     </li>
-          <li>o	Essential for secure data transfer         </li>
+          <li>Data is translated into code only the correct key can access</li>
+          <li>Essential for secure data transfer</li>
         </ul>
 
         <li><b>Security</b> <em>(not in specification)</em></li>
@@ -115,11 +115,24 @@ const Component15 = () => {
         <ul>
           <li>Used when sending data via. TCP/IP over the Internet</li>
           <li>IP addresses aren’t linked to hardware</li>
-          <li>Private IP addresses – within a LAN (switches)</li>
-          <li>Public IP addresses – connecting LAN to a WAN (routers)</li>
-          <li>Static IP addresses – permanent used to connect printers to LANs & hosting (big) websites, VERY expensive</li>
-          <li>Dynamic IP addresses – assigned to a device each time it connects to a network, cost effective and can be reused</li>
-          <li>IPv4 (32-bit or 4 denary number) or IPv6 (128-bit or 8 hexadecimal)</li>
+          <li>Privacy of IP adresses</li>
+          <ul>
+            <li>Private – within a LAN (switches)</  li>
+            <li>Public – connecting LAN to a WAN (routers)</li>
+          </ul>
+
+          <li>Forms of IP address</li>
+          <ul>
+            <li>Static – permanent used to connect printers to LANs & hosting (big) websites, VERY expensive</li>
+            <li>Dynamic – assigned to a device each time it connects to a network, cost effective and can be reused</li>
+          </ul>
+          <li>You mix the 2, e.g. a private static IP address</li>
+          
+          <li>2 versions</li>
+          <ul>
+            <li>IPv4 (32-bit or 4 denary numbers 0-255 seperated by '.')</li>
+            <li>IPv6 (128-bit or 8 hexadecimal seperated by ':') - used because IPv4 ran out of possibilities</li>
+          </ul>
         </ul>
 
         <li><b>MAC addresses</b></li>

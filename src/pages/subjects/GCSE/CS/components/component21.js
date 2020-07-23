@@ -16,7 +16,20 @@ const Component21 = () => {
 
       <p className="heading">Computational thinking</p>
       <ul>
-        <li>PLACEHOLDER</li>
+        <li><b>Abstraction </b></li>
+        <ul>
+          <li>Picking out the important parts from a problem, ignoring extra info</li>
+        </ul>
+
+        <li><b>Decomposition</b></li>
+        <ul>
+          <li>Breaking down a complex problem into smaller problems, to solve individually</li>
+        </ul>
+
+        <li><b>Algorithmic </b> </li>
+        <ul>
+          <li>Logical way of getting from problem to solution, following an algorithm or set of steps (that can be modified and used to solve similar issues)</li>
+        </ul>
       </ul>
 
       <p className="heading">Search algorithms</p>
