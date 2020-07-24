@@ -1,142 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --nav-width: 250px;
-  --nav-bg: #222;
-  --primary: #66e8ff;
-  --title-size: 1.1rem;
+	--nav-width: 250px;
+	--nav-bg: #222;
+	--primary: #66e8ff;
+	--title-size: 1.1rem;
 
-  --background: #fff;
-  --text: #000;
-  --opposite: #fff;
- 
-  --table-odd: #fff;
-  --table-even: #dbdbdb;
-  --table-head: #2724FF;
-  --table-title: #fff;
+	--background: #fff;
+	--text: #000;
+	--opposite: #fff;
 
-  --links: #471caa;
-  --key-words: #00f;
-  --positives: #0e6b32;
-  --negatives: #ca1717;
+	--table-odd: #fff;
+	--table-even: #dbdbdb;
+	--table-head: #2724ff;
+	--table-title: #fff;
+
+	--links: #471caa;
+	--key-words: #00f;
+	--positives: #0e6b32;
+	--negatives: #ca1717;
 }
 
 [data-theme="dark"] {
-  --background: #222;
-  --text: #ececec;
-  --opposite: #000;
+	--background: #222;
+	--text: #ececec;
+	--opposite: #000;
 
-  --table-odd: #4e4e4e;
-  --table-even: #3b3b3b;
-  --table-head: #7f2ab8;
-  --table-title: #fff;
+	--table-odd: #4e4e4e;
+	--table-even: #3b3b3b;
+	--table-head: #7f2ab8;
+	--table-title: #fff;
 
-  --links: #bc9fff;
-  --key-words: #9de8ff;
-  --positives: #29d46b;
-  --negatives: #ff6262;
+	--links: #bc9fff;
+	--key-words: #9de8ff;
+	--positives: #29d46b;
+	--negatives: #ff6262;
 }
 
 /* Defaults */
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  word-wrap: break-word;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
 }
 
 html {
-  scroll-behavior: smooth;   
-  overflow-y: scroll; /* has to be scroll, not auto */
-  -webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+	overflow-y: scroll; /* has to be scroll, not auto */
+	-webkit-overflow-scrolling: touch;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 
-  font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
 
-  background: var(--background);
-  color: var(--text);
+	background: var(--background);
+	color: var(--text);
 }
 
-body.locked { 
-  margin: 0; 
-  height: 100%; 
-  overflow: hidden;
+body.locked {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
 }
 
 /* Main container */
 main {
-  width: calc(100% - 40px); 
-  margin-left: 40px;
-  padding: 1rem;
+	width: calc(100% - 40px);
+	margin-left: 40px;
+	padding: 1rem;
 
-  @media (min-width: 769px) {
-    width: calc(100% - var(--nav-width) - 2rem);
-    margin-left: var(--nav-width);
-  }
+	@media (min-width: 769px) {
+		width: calc(100% - var(--nav-width) - 2rem);
+		margin-left: var(--nav-width);
+	}
 }
-
-
 
 /* Defaults for typography */
-h1, h2, h3, p, ul, li {
-  margin: 0;
-  padding: 0;
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
 }
 
-p, ul {
-  padding-bottom: 1rem;
+p,
+ul {
+	padding-bottom: 1rem;
 }
 
 ul {
-  margin-left: 1rem;
+	margin-left: 1rem;
 }
 
 a {
-  text-decoration: none;
-  color: var(--links);
+	text-decoration: none;
+	color: var(--links);
+	font-weight: 600;
 }
 
 /* Table styling */
 table {
-  text-align: left;
-  font-weight: normal;
+	text-align: left;
+	font-weight: normal;
 
-  color: var(--text);
+	color: var(--text);
 
-  border-collapse: collapse;
+	border-collapse: collapse;
 
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 
-  width: 100%;
+	width: 100%;
 
-  table-layout: fixed;
+	table-layout: fixed;
 }
 
-table, th, td {
-  border: 1px solid black;
+table,
+th,
+td {
+	border: 1px solid black;
 }
 
-th, td {
-  padding: 0.5rem;
+th,
+td {
+	padding: 0.5rem;
 }
 
 td {
-  vertical-align: top;
+	vertical-align: top;
 }
 
 tr:nth-child(even) {
-  background-color: var(--table-even);
+	background-color: var(--table-even);
 }
 
 tr:nth-child(odd) {
-  background-color: var(--table-odd);
+	background-color: var(--table-odd);
 }
 
 th {
-  background-color: var(--table-head);
-  color: var(--table-title);
+	background-color: var(--table-head);
+	color: var(--table-title);
 }
