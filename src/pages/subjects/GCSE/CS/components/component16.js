@@ -4,16 +4,16 @@ const Component16 = () => {
   return (
     <div id="comp1_6" className="topic">
       <h4>Component 1.6 - System security</h4>
-      
+
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Social engineering</b> - exploiting the fact that the human is always the weak point in a security system </li>
-        <li><b>Phishing</b> - the act of gathering information by spoofing trustworthy websites for malicious intent</li>
-        <li><b>Malware</b> - any piece of software that is harmful to your computer</li>
-        <li><b>User access levels</b> - controlling what individual users can see & do on a device within a network</li>
-        <li><b>Spoofing</b> - communication is sent from an unknown source disguised as a source known to the receiver</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Social engineering</b> - exploiting the fact that the human is always the weak point in a security system </li>
+          <li><b>Phishing</b> - the act of gathering information by spoofing trustworthy websites for malicious intent</li>
+          <li><b>Malware</b> - any piece of software that is harmful to your computer</li>
+          <li><b>User access levels</b> - controlling what individual users can see & do on a device within a network</li>
+          <li><b>Spoofing</b> - communication is sent from an unknown source disguised as a source known to the receiver</li>
+        </ul>
       </div>
 
       <p className="heading">Forms of Attack</p>
@@ -71,12 +71,12 @@ const Component16 = () => {
           <ul>
             <li>E.g. if input validation is weak then SQL code could be inputted instead of a password</li>
             <ul>
-            <li>For example, to access an online retail account you may need to put in a PIN number. When you put in your PIN number, 12345, the website's SQL code may execute...</li>
-            <li>SELECT name, address, account-number WHERE pin = 12345</li>
-            <li>However, this SQL code doesn't have strong validation because it doesn't specify that the pin has to be numerical. This can be exploited by entering the code: "12345 OR 1=1". This code is an SQL injection - now the SQL will look like...</li>
-            <li>SELECT name, address, account-number WHERE pin = 12345 OR 1=1</li>
-            <li>Since 1=1 is always true, the website will return all the details of everyone in the website's database (instead of just your account details)</li>
-            <li>This is because when the SQL is executed, the conditional statement is tested against every row in the database, as 1=1 is always true the row will be added to the output/result.</li>
+              <li>For example, to access an online retail account you may need to put in a PIN number. When you put in your PIN number, 12345, the website's SQL code may execute...</li>
+              <li>SELECT name, address, account-number WHERE pin = 12345</li>
+              <li>However, this SQL code doesn't have strong validation because it doesn't specify that the pin has to be numerical. This can be exploited by entering the code: "12345 OR 1=1". This code is an SQL injection - now the SQL will look like...</li>
+              <li>SELECT name, address, account-number WHERE pin = 12345 OR 1=1</li>
+              <li>Since 1=1 is always true, the website will return all the details of everyone in the website's database (instead of just your account details)</li>
+              <li>This is because when the SQL is executed, the conditional statement is tested against every row in the database, as 1=1 is always true the row will be added to the output/result.</li>
             </ul>
           </ul>
         </ul>

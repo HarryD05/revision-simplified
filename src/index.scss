@@ -9,6 +9,7 @@
 	--background: #fff;
 	--text: #000;
 	--opposite: #fff;
+	--code-bg: #e0e0e0;
 
 	--table-odd: #fff;
 	--table-even: #dbdbdb;
@@ -23,8 +24,9 @@
 
 [data-theme="dark"] {
 	--background: #222;
-	--text: #ececec;
+	--text: #f1f1f1;
 	--opposite: #000;
+	--code-bg: #313131;
 
 	--table-odd: #4e4e4e;
 	--table-even: #3b3b3b;

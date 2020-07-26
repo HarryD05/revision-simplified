@@ -147,6 +147,7 @@ const GCSE_CS = (props) => {
 
 			<div id="notes">
 				<h2>MY REVISION NOTES</h2>
+				<p>All <code>code snippets</code> will be pseudocode</p>
 				<Component11 />
 				<Component12 />
 				<Component13 />

@@ -65,3 +65,44 @@ ol {
 .disadvantages {
   color: var(--negatives);
 }
+
+code, .code-block {
+  background: var(--code-bg);
+  padding: 4px;
+  border-radius: 4px;
+  font-family: monospace;
+  width: max-content;
+  max-width: 100%;
+  word-wrap: break-all;
+  white-space: normal;
+
+  pre {
+    width: 100%;
+    word-wrap: break-all;
+    white-space: normal;
+  }
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.small-table {
+  text-align: left;
+	font-weight: normal;
+
+	color: var(--text);
+
+	border-collapse: collapse;
+
+	margin-bottom: 1rem;
+
+  width: unset;
+
+  table-layout: fixed;
+  
+  tr {
+    height: 0.5rem;
+  }
+}

@@ -4,13 +4,13 @@ const Component12 = () => {
   return (
     <div id="comp1_2" className="topic">
       <h4>Component 1.2 - Memory</h4>
-      
+
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Primary Storage</b> - Aka. main memory, volatile memory, RAM & Cache</li>
-        <li><b>Virtual memory</b> - memory combining RAM & temporary space on the hard disk</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Primary Storage</b> - Aka. main memory, volatile memory, RAM & Cache</li>
+          <li><b>Virtual memory</b> - memory combining RAM & temporary space on the hard disk</li>
+        </ul>
       </div>
 
       <p className="heading">Random Access Memory (RAM)</p>
@@ -83,8 +83,8 @@ const Component12 = () => {
         <li>The data stored can be erased & re-written (“flashing”)</li>
         <li>Can only be flashed so many times before it begins to degrade</li>
         <ul>
-          <li>some devices have many separate blocks of flash memory to avoid degrading</li> 
-          <li>as you only have to flash the block containing the data you need to change</li> 
+          <li>some devices have many separate blocks of flash memory to avoid degrading</li>
+          <li>as you only have to flash the block containing the data you need to change</li>
         </ul>
 
         <li>Stores data in electrical circuits, by trapping elections</li>

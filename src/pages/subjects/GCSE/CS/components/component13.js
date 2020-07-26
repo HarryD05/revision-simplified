@@ -4,13 +4,13 @@ const Component13 = () => {
   return (
     <div id="comp1_3" className="topic">
       <h4>Component 1.3 - Storage</h4>
-      
+
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Secondary Storage</b> - non-volatile memory that isn’t directly accessed by the CPU; used to save files & data</li>
-        <li><b>Storage Media</b> - umbrella term used to describe hard drives, disks, flash drives etc.</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Secondary Storage</b> - non-volatile memory that isn’t directly accessed by the CPU; used to save files & data</li>
+          <li><b>Storage Media</b> - umbrella term used to describe hard drives, disks, flash drives etc.</li>
+        </ul>
       </div>
 
       <p className="heading">Secondary Storage</p>
@@ -49,7 +49,7 @@ const Component13 = () => {
           <li className="advantages"><b>Advantages:</b> cheap & portable</li>
           <li className="disadvantages"><b>Disadvantages:</b> limited capacity, not durable (easily scratched)</li>
           <li>Common use: storing music, video games, videos</li>
-          
+
           <li>Main storage media & capacity</li>
           <ul>
             <li>CD (compact disc) – 700 MB</li>
@@ -59,9 +59,9 @@ const Component13 = () => {
 
           <li>3 forms of optical storage:</li>
           <ul>
-            <li>ROM (read-only)</li>  
-            <li>R (write-once)</li>  
-            <li>RW (rewriteable)</li>  
+            <li>ROM (read-only)</li>
+            <li>R (write-once)</li>
+            <li>RW (rewriteable)</li>
           </ul>
         </ul>
 

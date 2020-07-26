@@ -4,17 +4,17 @@ const Component15 = () => {
   return (
     <div id="comp1_5" className="topic">
       <h4>Component 1.5 - Network topologies, protocols & layers</h4>
-      
+
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Latency</b> - how long it takes a message to travel from one device to another across a network (delay caused by interference)</li>
-        <li><b>Error rate</b> - how reliably packets are transmitted </li>
-        <li><b>Jitter</b> - effect of congestion on receiving of packets (delay between packets causing buffering)</li>
-        <li><b>Ethernet</b> - an array of networking technologies used in LANs for physical connections</li>
-        <li><b>Protocol</b> - set of rules for how devices communicate (e.g. language, size of packets, what to do with corrupted packets, what network ports to use)</li>
-        <li><b>Layers</b> - group of protocols with a similar function</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Latency</b> - how long it takes a message to travel from one device to another across a network (delay caused by interference)</li>
+          <li><b>Error rate</b> - how reliably packets are transmitted </li>
+          <li><b>Jitter</b> - effect of congestion on receiving of packets (delay between packets causing buffering)</li>
+          <li><b>Ethernet</b> - an array of networking technologies used in LANs for physical connections</li>
+          <li><b>Protocol</b> - set of rules for how devices communicate (e.g. language, size of packets, what to do with corrupted packets, what network ports to use)</li>
+          <li><b>Layers</b> - group of protocols with a similar function</li>
+        </ul>
       </div>
 
       <p className="heading">Network Topologies</p>
@@ -127,7 +127,7 @@ const Component15 = () => {
             <li>Dynamic – assigned to a device each time it connects to a network, cost effective and can be reused</li>
           </ul>
           <li>You mix the 2, e.g. a private static IP address</li>
-          
+
           <li>2 versions</li>
           <ul>
             <li>IPv4 (32-bit or 4 denary numbers 0-255 seperated by '.')</li>
@@ -276,7 +276,7 @@ const Component15 = () => {
             <li>Allows data to be sent efficiently (data split into packets and can reach the host with different routes avoiding congestion)</li>
           </ul>
         </div>
-        
+
       </ul>
     </div>
   )
