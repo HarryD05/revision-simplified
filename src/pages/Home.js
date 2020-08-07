@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { NavLink } from 'react-router-dom';
 
 //Context
 import { LocationContext } from '../context/LocationContext';
@@ -32,7 +33,7 @@ const Home = (props) => {
 				</thead>
 				<tbody>
 					<tr>
-						<td>RE</td>
+						<td><NavLink to="/subjects/GCSE_RE">RE</NavLink></td>
 						<td>
 							<a
 								href="https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/Specification-GCSE-L1-L2-Religious-Studies-B-June-2016-Draft-4.pdf"
@@ -45,7 +46,7 @@ const Home = (props) => {
 						<td>Coming 20-Aug-2020</td>
 					</tr>
 					<tr>
-						<td>Computer Science</td>
+						<td><NavLink to="/subjects/GCSE_CS">Computer Science</NavLink></td>
 						<td>
 							<a
 								href="https://ocr.org.uk/Images/225975-specification-accredited-gcse-computer-science-j276.pdf"

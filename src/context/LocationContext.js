@@ -1,9 +1,9 @@
-import React, {createContext, useState} from 'react';
+import React, { createContext, useState } from 'react';
 
 export const LocationContext = createContext();
 
 export default (props) => {
-  const {children} = props;
+  const { children } = props;
 
   const [currSubject, setCurrSubject] = useState(null);
 
@@ -17,8 +17,8 @@ export default (props) => {
 
   return (
     <div>
-      <LocationContext.Provider value={{getCurrentSubject, setCurrentSubject}}>
-        { children }
+      <LocationContext.Provider value={{ getCurrentSubject, setCurrentSubject }}>
+        {children}
       </LocationContext.Provider>
     </div>
   )
