@@ -35,7 +35,7 @@ const Component16 = () => {
           <ul>
             <li>Deleting/modifying files</li>
             <li><b>Scareware</b> – telling the user they have viruses & scaring them into paying you</li>
-            <li>Locking files, ransomware encrypts all files & a large sum of money is required for the decryption key</li>
+            <li><b>Ransomeware</b> - Locking files or encrypts all files & a large sum of money is required for the decryption key</li>
             <li><b>Spyware</b> – monitors actions (i.e. key presses) and sends them to the hacker</li>
             <li><b>Rootkits</b> – alter permissions & give hackers administrator-level access</li>
             <li>Opening backdoors, holes in security allowing for future attack</li>
@@ -43,7 +43,7 @@ const Component16 = () => {
 
           <li>how they get access</li>
           <ul>
-            <li><b>Viruses</b> – they attach to certain files (e.g. .exe & autorun scripts), spread by files being copied & activated by the files being opened</li>
+            <li><b>Viruses</b> – they attach to certain files (e.g. .exe & autorun/macros scripts), spread by files being copied & activated by the files being opened</li>
             <li><b>Worms</b> – viruses that self-replicate & exploit network security weaknesses</li>
             <li><b>Trojans</b> – malware disguised as legitimate software; they don’t replicate but users install them</li>
           </ul>
@@ -61,6 +61,8 @@ const Component16 = () => {
           <li>They often contain links to spoof versions of a company’s website, which requests the user’s details & personal information – then the hacker can use this info to get into the user’s actual account</li>
           <li>Phishing emails sent to 1000s of people simultaneously hoping at least 1 person falls for it</li>
           <li>Ways to avoid - spot bad grammar, most email services & firewalls have anti-phishing software</li>
+          <li>The spelling mistakes are usually dilerbate, so that the people that fall for the scam are less likely to realise it is a scam.</li>
+          <li>Spear phishing is where phishing is where the attack is moulded to a specific user, they are researched into & then for example, the hacker may immitate the language of a good friend</li>
         </ul>
 
         <li><b>SQL injection</b></li>
@@ -81,24 +83,26 @@ const Component16 = () => {
           </ul>
         </ul>
 
-        <li><b>Brute force </b></li>
+        <li><b>Brute force</b></li>
         <ul>
           <li>active attack where passwords try to be cracked using trial & error, using automated software producing hundreds of likely passwords</li>
         </ul>
 
         <li><b>Denial-of-service (DoS) </b></li>
         <ul>
-          <li>stopping a user from accessing part of a network, by flooding the network with useless traffic, slowing down the network</li>
+          <li>stopping a user from accessing part of a network, by flooding the network with useless traffic, slowing down the network - done from a single user</li>
+          <li>Distributed Dos (DDos) is when multiple computers or uses send useless requests (more effective)</li>
+          <li>this means that when important data is sent, it may not be processed or there will be a long delay</li>
         </ul>
 
-        <li><b>Insider </b></li>
+        <li><b>insider</b></li>
         <ul>
           <li>someone within a company exploits their network access to steal information</li>
         </ul>
 
-        <li><b>Data interception</b></li>
+        <li><b>Data interception ("Man in the Middle" MitM attack)</b></li>
         <ul>
-          <li>Someone monitors data travelling on a network & intercepts then copies any sensitive information</li>
+          <li>Someone monitors data travelling on a network (using packet sniffers) & intercepts then copies any sensitive information</li>
         </ul>
       </ul>
 
