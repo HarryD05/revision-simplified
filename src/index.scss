@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
 	--nav-width: 250px;
@@ -6,7 +7,7 @@
 	--primary: #66e8ff;
 	--title-size: 1.1rem;
 
-	--background: #fff;
+	--background: #fffffb;
 	--text: #000;
 	--opposite: #fff;
 	--code-bg: #e0e0e0;
@@ -18,7 +19,7 @@
 
 	--links: #471caa;
 	--key-words: #00f;
-	--positives: #0e6b32;
+	--positives: #1c703c;
 	--negatives: #ca1717;
 }
 
@@ -36,7 +37,7 @@
 	--links: #bc9fff;
 	--key-words: #9de8ff;
 	--positives: #29d46b;
-	--negatives: #ff6262;
+	--negatives: #ff6f6f;
 }
 
 /* Defaults */
@@ -57,7 +58,7 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 	background: var(--background);
 	color: var(--text);
@@ -94,7 +95,7 @@ li {
 
 p,
 ul {
-	padding-bottom: 1rem;
+	padding-bottom: 0.5rem;
 }
 
 ul {

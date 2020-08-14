@@ -80,7 +80,7 @@ const GCSE_CS = (props) => {
 						<HashLink id="comp2_5" name="2.5" /> - Translators & facilites
 					</li>
 					<li>
-						<HashLink id="comp2_6" name="2.6" />- Data representation
+						<HashLink id="comp2_6" name="2.6" /> - Data representation
 					</li>
 				</ul>
 			</div>

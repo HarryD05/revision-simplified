@@ -21,8 +21,6 @@ ul {
   line-height: 1.6rem;
   padding-left: 1rem;
 
-  
-
   li {
     a {
       font-weight: 700;
@@ -38,6 +36,11 @@ ul {
 
 ol {
   padding-left: 1.5rem;
+}
+
+b {
+  margin: 0;
+  padding: 0;
 }
 
 .heading {
@@ -103,6 +106,31 @@ code, .code-block {
   table-layout: fixed;
   
   tr {
-    line-height: 10px;
+    line-height: 14px;
   }
+
+  &.centered {
+    text-align: center;
+  }
+
+  &.blank {
+    border-collapse: initial;
+    table,
+    th,
+    td {
+      border: none;
+    }
+    table {
+      border: none;
+    }
+
+    tr {
+      background: none;
+    }
+  }
+
+  @media (max-width: 500px) {
+    font-size: 0.7rem;
+  }
+
 }
