@@ -1,7 +1,7 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 
 //Context
-import {LocationContext} from '../context/LocationContext';
+import { LocationContext } from '../context/LocationContext';
 
 const About = props => {
   const locContext = useContext(LocationContext);
@@ -14,10 +14,10 @@ const About = props => {
 
       <h2>GCSEs</h2>
       <ul>
-        <li><b>2020</b> - I took 2 GCSEs: RE and computer science (due to Covid-19 these results will be based on predicted grades)</li>  
+        <li><b>2020</b> - I took 2 GCSEs: RE & Computer Science, I achieved 2 9s!</li>
         <li><b>2021</b> - I will taking the other 9: English Literature & Language, Maths, Triple Science, Geography, History & Spanish</li>
       </ul>
-      
+
       <h2>A-Levels</h2>
       <p>I am currently thinking of taking...</p>
       <ul>

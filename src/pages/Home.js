@@ -43,7 +43,7 @@ const Home = (props) => {
 								Edexcel B 2016 (ZB - 1C & 2B)
 							</a>
 						</td>
-						<td>Coming 20-Aug-2020</td>
+						<td>9</td>
 					</tr>
 					<tr>
 						<td><NavLink to="/subjects/GCSE_CS">Computer Science</NavLink></td>
@@ -56,7 +56,7 @@ const Home = (props) => {
 								OCR (J726)
 							</a>
 						</td>
-						<td>Coming 20-Aug-2020</td>
+						<td>9</td>
 					</tr>
 				</tbody>
 			</table>
