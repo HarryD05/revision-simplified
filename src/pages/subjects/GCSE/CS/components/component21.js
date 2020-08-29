@@ -1,5 +1,8 @@
 import React from 'react';
 
+//Assets
+import FlowchartSymbols from './../../../../../assets/Flowchart-symbols.jfif';
+
 const Component21 = () => {
 	return (
 		<div id="comp2_1" className="topic">
@@ -141,37 +144,16 @@ const Component21 = () => {
 
 			<p className="heading">Flow diagrams</p>
 			<ul>
-				<li>
-					<a
-						href="https://www.bbc.co.uk/bitesize/guides/z22wwmn/revision/5"
-						target="blank"
-						rel="noopener noreferrer"
-					>
-						Standard flow chart symbols
-					</a>
-				</li>
+				<li>Standard flow chart symbols</li>
+				<img src={FlowchartSymbols} alt="Standard flow chart symbols" />
 
 				<li>2 examples</li>
 				<ul>
-					<li>
-						<a
-							href="http://3.bp.blogspot.com/-xuhcsjKYF-c/VC5Rb5Q9N2I/AAAAAAAAAEI/tV6819fD7Pw/s1600/Heating.PNG"
-							target="blank"
-							rel="noopener noreferrer"
-						>
-							Central heating
-						</a>
-					</li>
-					<li>
-						<a
-							href="https://i.pinimg.com/736x/14/09/97/1409979cc38e309bcc6ba36cb9dca8a5--programming-languages-computer-programming.jpg"
-							target="blank"
-							rel="noopener noreferrer"
-						>
-							Calculating pay
-						</a>{' '}
-						(includes psuedocode)
-					</li>
+					<li>Central heating</li>
+					<img src="http://3.bp.blogspot.com/-xuhcsjKYF-c/VC5Rb5Q9N2I/AAAAAAAAAEI/tV6819fD7Pw/s1600/Heating.PNG" alt="example flow chart that mimics central heating" />
+
+					<li>Calculating pay (includes psuedocode)</li>
+					<img src="https://i.pinimg.com/736x/14/09/97/1409979cc38e309bcc6ba36cb9dca8a5--programming-languages-computer-programming.jpg" alt="example flow chart with pseudocode that calculates pay" />
 				</ul>
 			</ul>
 
