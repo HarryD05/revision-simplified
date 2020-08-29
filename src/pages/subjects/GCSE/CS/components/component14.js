@@ -4,15 +4,15 @@ const Component14 = () => {
   return (
     <div id="comp1_4" className="topic">
       <h4>Component 1.4- Wired & wireless networks</h4>
-      
+
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Router</b> - network hardware responsible for packet switching (connection to large WANs)</li>
-        <li><b>Bandwidth</b> - amount of data that <em>can</em> be transmitted within a given period (like size of a road)</li>
-        <li><b>Throughput</b> - amount of data that <em>is</em> transmitted within a given period (like busyness of a road)</li>
-        <li><b>Website</b> - a collection of webpages linked via. hyperlinks</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Router</b> - network hardware responsible for packet switching (connection to large WANs)</li>
+          <li><b>Bandwidth</b> - amount of data that <em>can</em> be transmitted within a given period (like size of a road)</li>
+          <li><b>Throughput</b> - amount of data that <em>is</em> transmitted within a given period (like busyness of a road)</li>
+          <li><b>Website</b> - a collection of webpages linked via. hyperlinks</li>
+        </ul>
       </div>
 
       <p className="heading">Networks</p>
@@ -38,7 +38,7 @@ const Component14 = () => {
           <li><b>Connection type </b></li>
           <ul>
             <li>wires are faster (& more reliable) than wireless connections, & fibre optic faster than copper.</li>
-            <li>Wireless performance impacted by signal quality (effected by range & physical obstacles etc.)</li>  
+            <li>Wireless performance impacted by signal quality (effected by range & physical obstacles etc.)</li>
           </ul>
 
           <li><b>Interference </b> - electromagnetic interference may corrupt data during transmission</li>
@@ -65,8 +65,18 @@ const Component14 = () => {
         <li><b>Client-Server</b></li>
         <ul>
           <li>Managed by a central server, devices connected to the server are clients.</li>
-          <li>Server stores files, user details & software while receiving a responding to requests from clients (may authenticate using passwords etc.)</li>
+          <li>There are many types of server which store data while receiving a responding to requests from clients (may authenticate using passwords etc.)</li>
+          <ul>
+            <li>File servers - hold & maintain user files</li>
+            <li>Applications servers - allow programs to be run over a network</li>
+            <li>Web servers - hold & share web pages</li>
+            <li>Print servers - manage printing across a network</li>
+            <li>Mail servers - handle emails between users</li>
+          </ul>
           <li>Clients send requests for data to the server</li>
+
+          <img src="https://bam.files.bbci.co.uk/bam/live/content/zdn2scw/large" alt="Client sends request to server which responds with the result" />
+
           <div className="advantages">
             <li><b>Advantages</b></li>
             <ul>
@@ -129,10 +139,10 @@ const Component14 = () => {
           <li>The web browser sends the websites URL to the DNS which returns the website’s (or webserver’s) IP address.</li>
           <li>The web browser then sends a request to the webserver for the website linked to the IP address</li>
         </ul>
-        
+
         <li><b>Internet traffic</b></li>
         <ul>
-          <li>WWW (websites), email, multiplayer games, video streaming</li>  
+          <li>WWW (websites), email, multiplayer games, video streaming</li>
         </ul>
 
         <li><b>The Cloud</b></li>

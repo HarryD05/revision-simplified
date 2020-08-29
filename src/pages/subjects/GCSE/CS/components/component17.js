@@ -4,14 +4,14 @@ const Component17 = () => {
   return (
     <div id="comp1_7" className="topic">
       <h4>Component 1.7 - System Software</h4>
-      
+
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Device driver</b> - software that enables particular hardware to communicate with the rest of the computer system</li>
-        <li><b>Operating system</b> - software which manages a systems’ files, processes & resources</li>
-        <li><b>Utility Software</b> - a program designed to help analyse, configure, optimise or maintain a computer system</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Device driver</b> - software that enables particular hardware to communicate with the rest of the computer system</li>
+          <li><b>Operating system</b> - software which manages a systems’ files, processes & resources</li>
+          <li><b>Utility Software</b> - a program designed to help analyse, configure, optimise or maintain a computer system</li>
+        </ul>
       </div>
 
       <p className="heading">Purpose of System Software</p>
@@ -110,7 +110,8 @@ const Component17 = () => {
 
         <li><b>Defragmentation software</b></li>
         <ul>
-          <li><b>need to add functionality for displaying images with a good format - but <a href="https://www.101computing.net/wp/wp-content/uploads/defragmentation.jpg" target="_blank" rel="noopener noreferrer">this image</a> is a basic overview</b> (each square is part of a file)</li>
+          <li>this image is a basic overview (each square is part of a file on the hard disk)</li>
+          <img src="https://www.101computing.net/wp/wp-content/uploads/defragmentation.jpg" alt="Defragmentation - squares disorganised first, then organised into groups" />
           <li>Files are stored on a hard disk in any available space</li>
           <li>Files are moved, deleted & change size creating small gaps on the disk, so new files are split to fill the gaps</li>
           <li>The disk becomes more & more fragmented making read/write times slow (as the read/write head has to move across the disk)</li>

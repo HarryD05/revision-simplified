@@ -58,9 +58,12 @@ const Component24 = () => {
             <li>A AND B</li>
             <li>A /\ B</li>
             <li>A . B</li>
-            <li><a href="https://bam.files.bbci.co.uk/bam/live/content/z4ckxyc/large" target="_blank" rel="noopener noreferrer">Diagramatically</a></li>
+
+            <img src="https://bam.files.bbci.co.uk/bam/live/content/z4ckxyc/large" alt="AND gate" />
           </ul>
         </ul>
+
+        <br />
 
         <li><b>OR (DISJUNCTION)</b></li>
         <ul>
@@ -101,9 +104,12 @@ const Component24 = () => {
             <li>A OR B</li>
             <li>A \/ B</li>
             <li>A + B</li>
-            <li><a href="https://bam.files.bbci.co.uk/bam/live/content/z7qmy9q/large" target="_blank" rel="noopener noreferrer">Diagramatically</a></li>
+            <img src="https://bam.files.bbci.co.uk/bam/live/content/z7qmy9q/large" alt="OR gate" />
+
           </ul>
         </ul>
+
+        <br />
 
         <li><b>NOT (NEGATION)</b></li>
         <ul>
@@ -132,7 +138,7 @@ const Component24 = () => {
             <li>¬ A</li>
             <li>~ A</li>
             <li>Ā</li>
-            <li><a href="https://bam.files.bbci.co.uk/bam/live/content/z6xhgwx/large" target="_blank" rel="noopener noreferrer">Diagramatically</a></li>
+            <img src="https://bam.files.bbci.co.uk/bam/live/content/z6xhgwx/large" alt="NOT Gate" />
           </ul>
         </ul>
       </ul>

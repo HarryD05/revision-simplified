@@ -22,6 +22,7 @@ const Component15 = () => {
         <li><b>Star</b></li>
         <ul>
           <li>All devices connected to a central switch</li>
+          <img src="https://bam.files.bbci.co.uk/bam/live/content/z7rscqt/large" alt="A central switch connected to devices each by a single cable" />
           <div className="advantages">
             <li><b>Advantages</b></li>
             <ul>
@@ -46,6 +47,9 @@ const Component15 = () => {
           <li>Data sent along the fasted route </li>
           <li>Full mesh - Every device connected to all other</li>
           <li>Partial mesh - Not all devices connect to all other</li>
+
+          <img src="https://bam.files.bbci.co.uk/bam/live/content/zhwrjhv/large" alt="nodes/computers, each node is connected to every other node" />
+
           <div className="advantages">
             <li><b>Advantages</b></li>
             <ul>

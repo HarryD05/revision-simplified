@@ -134,7 +134,7 @@ const Component26 = () => {
           <li>if the difference is &lt; 0 then the bit is 0</li>
           <li>continue with whenever the difference is &gt;= 0 the bit is 1, then takeaway the value from the runnning toal</li>
           <li>Example: 203</li>
-          <table className="small-table centered">
+          <table className="small-table long centered">
             <tbody>
               <tr>
                 <td>Total</td>
@@ -197,7 +197,7 @@ const Component26 = () => {
         </ul>
 
         <li>Example - add the 8-bit numbers, give your answer as an 8-bit number</li>
-        <table className="small-table blank">
+        <table className="small-table long blank">
           <tbody>
             <tr>
               <td></td>
@@ -376,10 +376,13 @@ const Component26 = () => {
       <ul>
         <li>Images stored as bit maps, a grid of tiny dots or pixels</li>
         <li>The colour of each pixel is represented with a binary number</li>
-        <li>The greater number of bits comes with a greater number of colours e.g.</li>
+        <img src="https://bam.files.bbci.co.uk/bam/live/content/zr7qvk7/large" alt="black & white image grid with correlating 0s & 1s" />
+        <li>Colour depth - the greater number of bits comes with a greater range of colours e.g.</li>
         <ul>
           <li>1 bit - black or white</li>
-          <li>3-bytes - the full RGB spectrum, "slider" of 255 for red, green & blue (65,536 possibilities) e.g. 255-0-0 is red</li>
+          <li>2 bits - black, dark grey, light grey or white</li>
+          <img src="https://bam.files.bbci.co.uk/bam/live/content/zdht47h/large" alt="same image to above with 4 colours instead of 2" />
+          <li>3 bytes - the full RGB spectrum, "slider" of 255 for red, green & blue (65,536 possibilities) e.g. 255-0-0 is red</li>
         </ul>
       </ul>
 
@@ -411,12 +414,15 @@ const Component26 = () => {
 
       <p className="heading">Sound representation</p>
       <ul>
-        <li>Sound is recorded as an analogue signal (continuous data)</li>
+        <li>Sound is recorded as an analogue signal (continuous data) - shown below</li>
+        <img src="https://bam.files.bbci.co.uk/bam/live/content/zbpykmn/large" alt="analogue sound wave, graph amplitude over time" />
+
         <li>Analogue must be converted to digital (0s & 1s) using ADCs (analogue-digital converters)</li>
         <li>Converting is called sampling</li>
         <ul>
           <li>The amplitude of the analogue signal is taken at regular intervals (sample frequency</li>
         </ul>
+        <img src="https://bam.files.bbci.co.uk/bam/live/content/z63vqp3/large" alt="graph of amplitude over time, but sampled once every second" />
       </ul>
 
       <p className="heading">Sound file size</p>

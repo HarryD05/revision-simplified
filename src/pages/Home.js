@@ -12,7 +12,7 @@ const Home = (props) => {
 		<div className="home">
 			<h1>Welcome to Revision Simplified</h1>
 			<h3>
-				<em>Good revision ---&gt; Good results</em>
+				<em>Good revision leads to... good results</em>
 			</h3>
 			<p>
 				The aim of this website is to help you get the best results possible in your exams, I will be using my
@@ -28,7 +28,7 @@ const Home = (props) => {
 					<tr>
 						<th>Subject</th>
 						<th>Spec. code</th>
-						<th>GCSE grade</th>
+						<th>Grade achieved</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -183,6 +183,10 @@ const Home = (props) => {
 					</tr>
 					<tr>
 						<td>Physics</td>
+						<td>Maybe</td>
+					</tr>
+					<tr>
+						<td>EPQ</td>
 						<td>Maybe</td>
 					</tr>
 				</tbody>

@@ -149,9 +149,11 @@ const Component23 = () => {
             <ul>
               <li>This is a list of all the tests that the programmer intends to use to ensure the program functions as intended.</li>
               <li>It should include several examples of normal, boundary & erroneous data</li>
-              <li><a href="http://computing.outwood.com/NEA/python/images/testing1.png" target="_blank" rel="noopener noreferrer">Example test table</a></li>
+              <li>Example test table</li>
+              <img src="http://computing.outwood.com/NEA/python/images/testing1.png" alt="Test table" />
             </ul>
-            <li><a href="https://bam.files.bbci.co.uk/bam/live/content/zdb7pv4/large" target="_blank" rel="noopener noreferrer">Software development cycle</a></li>
+            <li>Software development cycle</li>
+            <img src="https://bam.files.bbci.co.uk/bam/live/content/zdb7pv4/large" alt="software development cycle - explained below" />
             <ul>
               <li>Requirements - what does the client require the program to do?</li>
               <li>Design - how will the program meet the requirements?</li>

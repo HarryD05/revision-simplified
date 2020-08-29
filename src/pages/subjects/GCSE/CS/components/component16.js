@@ -95,7 +95,7 @@ const Component16 = () => {
           <li>this means that when important data is sent, it may not be processed or there will be a long delay</li>
         </ul>
 
-        <li><b>insider</b></li>
+        <li><b>Insider</b></li>
         <ul>
           <li>someone within a company exploits their network access to steal information</li>
         </ul>

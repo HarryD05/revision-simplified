@@ -131,6 +131,16 @@ code, .code-block {
 
   @media (max-width: 500px) {
     font-size: 0.7rem;
+    
+    &.long {
+      position: relative;
+      right: 50px;
+      z-index: -100;
+    }
   }
 
+}
+
+img {
+  max-width: 100%;
 }
