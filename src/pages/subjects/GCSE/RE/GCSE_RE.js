@@ -3,6 +3,7 @@ import React from 'react';
 
 //Topics
 import Islam1 from './topics/islam1';
+import Islam2 from './topics/islam2';
 
 //Components
 import HashLink from '../../../../components/HashLink';
@@ -24,7 +25,7 @@ const GCSE_RE = props => {
         <b>Islam (1C)</b>
         <ul>
           <li><HashLink id="islam1" name="1a" /> - Belief in Allah</li>
-          <li>1b - Marriage & the Family</li>
+          <li><HashLink id="islam2" name="1b" /> - Marriage & the Family</li>
           <li>1c - Living the Muslim Life</li>
           <li>1d - Matters of Life & Death</li>
         </ul>
@@ -42,7 +43,7 @@ const GCSE_RE = props => {
       <div id="res">
         <h2>RESOURCES</h2>
         <p>I mainly used my exercise book, just summarised my notes but...</p>
-        <b>Books I used:</b> 
+        <b>Books I used:</b>
         <ul>
           <li>
             <a href="https://www.pearsonschoolsandfecolleges.co.uk/secondary/ReligiousEducationandCitizenship/14-16forEdexcel/EdexcelGCSE91ReligiousStudiesSpecB/ISBN/Revision/ReviseEdexcelGCSE91ReligiousStudiesChristianityIslamRevisionGuide.aspx" target="__blank" el="noopener noreferrer">Pearson revision guide </a> (contains all possible topics for both religions so can ignore around half!)
@@ -61,9 +62,9 @@ const GCSE_RE = props => {
       </div>
 
       <div id="notes">
-      <h2>MY REVISION NOTES</h2>
+        <h2>MY REVISION NOTES</h2>
         <Islam1 />
-        <h4>Islam - Marriage & the Family</h4>
+        <Islam2 />
         <h4>Islam - Living the Muslim Life</h4>
         <h4>Islam - Matters of Life & Death</h4>
 
