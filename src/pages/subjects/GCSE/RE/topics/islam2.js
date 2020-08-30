@@ -14,7 +14,7 @@ const Islam2 = () => {
           <li><b>Family planning</b> - When a couple consider whether or not to have a child  </li>
           <li><b>Nikah</b> - Marriage contract</li>
           <li><b>Shari’ah</b> - Islamic legal system based on Muslim scholars’ understanding of the Qur’an, Sunnah and the Hadith</li>
-          <li><b>Situation ethics</b> - Situation ethics	The idea that people should base moral decisions on what is the most loving thing to do  </li>
+          <li><b>Situation ethics</b> - The idea that people should base moral decisions on what is the most loving thing to do  </li>
           <li><b>Utilitarianism</b> - The idea that whatever promotes the greatest good or happiness for individuals is what is morally right</li>
         </ul>
       </div>
