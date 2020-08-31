@@ -4,6 +4,7 @@ import React from 'react';
 //Topics
 import Islam1 from './topics/islam1';
 import Islam2 from './topics/islam2';
+import Islam3 from './topics/islam3';
 
 //Components
 import HashLink from '../../../../components/HashLink';
@@ -26,7 +27,7 @@ const GCSE_RE = props => {
         <ul>
           <li><HashLink id="islam1" name="1a" /> - Belief in Allah</li>
           <li><HashLink id="islam2" name="1b" /> - Marriage & the Family</li>
-          <li>1c - Living the Muslim Life</li>
+          <li><HashLink id="islam3" name="1c" /> - Living the Muslim Life</li>
           <li>1d - Matters of Life & Death</li>
         </ul>
         <br />
@@ -65,7 +66,7 @@ const GCSE_RE = props => {
         <h2>MY REVISION NOTES</h2>
         <Islam1 />
         <Islam2 />
-        <h4>Islam - Living the Muslim Life</h4>
+        <Islam3 />
         <h4>Islam - Matters of Life & Death</h4>
 
         <h4>Christianity - Belief in God</h4>

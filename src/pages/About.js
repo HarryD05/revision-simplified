@@ -14,7 +14,7 @@ const About = props => {
 
       <h2>GCSEs</h2>
       <ul>
-        <li><b>2020</b> - I took 2 GCSEs: RE & Computer Science, I achieving 2 9s</li>
+        <li><b>2020</b> - I took 2 GCSEs: RE & Computer Science, achieving 2 9s</li>
         <li><b>2021</b> - I will taking the other 9: English Literature & Language, Maths, Triple Science, Geography, History & Spanish</li>
       </ul>
 
