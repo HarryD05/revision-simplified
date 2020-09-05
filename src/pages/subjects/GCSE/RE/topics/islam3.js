@@ -11,9 +11,10 @@ const Islam3 = () => {
           <li><b>Ashura</b> - Shi’a commemoration of lmam Hussain's martyrdom  </li>
           <li><b>Five Pillars</b> - The most important duties of a Muslim, as Arkaan al-Islam  </li>
           <li><b>Imam</b> - Person who leads Salah</li>
+          <li><b>Martyrdom</b> - death due to religion/faith</li>
           <li><b>Nisab</b> - The amount of wealth above which a Muslim needs to pay Zakah  </li>
           <li><b>Sadaqah</b> - Declaration of belief, which Muslims are required to say  </li>
-          <li><b>Shirk</b> - A sin that involves setting up equals to Allah; worshipping anyone or anything besides him  </li>
+          <li><b>Shirk</b> - A sin that involves setting up equals to Allah; worshipping anyone or anything besides him</li>
         </ul>
       </div>
 
@@ -138,14 +139,14 @@ const Islam3 = () => {
 
       <p className="heading">Zakah & Khums</p>
       <ul>
-        <li>Zakah</li>
+        <li>Zakah (completed by both Shi'a & Sunni)</li>
         <ul>
           <li>3rd Pillar of Islam, type of worship or self purification</li>
           <li>Giving 2.5% of wealth to benefit the needy</li>
           <li>Duty stated in the Qur’an</li>
         </ul>
 
-        <li>Importance to Sunni:</li>
+        <li>Importance</li>
         <ul>
           <li>3rd Pillar of Islam so it is a duty</li>
           <li>Wealth is a gift from Allah, should be shared</li>
@@ -158,7 +159,7 @@ const Islam3 = () => {
         <li>Khums</li>
         <ul>
           <li>Shi’a Islam, one of the 10 Obligatory Acts</li>
-          <li>Paying 20% of surplus income to the Ummah (Islamic community) usually to Islamic leaders</li>
+          <li>Paying 20% of surplus income to the Ummah (Islamic community) usually to Islamic leaders (on top of Zakah)</li>
           <li>Mentioned in the Qur’an</li>
         </ul>
 
@@ -223,6 +224,7 @@ const Islam3 = () => {
         <ul>
           <li>Greater Jihad most important – a personal battle, many feel it is the true meaning of Jihad</li>
           <li>Muhammad fought for Lesser Jihad, but said Greater Jihad is more significant</li>
+          <li>Extremists groups e.g. ISIS & Boko Haram feel Lesser Jihad is more important as they feel Islam should be dominant globally</li>
         </ul>
       </ul>
 
@@ -255,6 +257,12 @@ const Islam3 = () => {
         <ul>
           <li>Shi’a celebrate the appointment of Ali as Muhammad’s successor</li>
           <li>Sunni Muslims don’t recognise this, as they don’t recognise Imam Ali as Muhammad’s successor</li>
+        </ul>
+
+        <li>Ashura - Shi'a</li>
+        <ul>
+          <li>Murder (martyrdom) of Imam Hussain (Muhammad's grandson)</li>
+          <li>Rembered by going to Mosque in black clothing</li>
         </ul>
       </ul>
     </div>

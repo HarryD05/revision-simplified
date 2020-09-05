@@ -128,6 +128,9 @@ const Component14 = () => {
           <li>If a DNS miss occurs (IP not found) a larger DNS server contacted</li>
         </ul>
 
+        <li><b>URL (Uniform Resource Locator)</b></li>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.normshield.com%2Fwp-content%2Fuploads%2F2017%2F05%2Fexample.png&f=1&nofb=1" alt="Labelled url" />
+
         <li><b>Hosting</b></li>
         <ul>
           <li>When a business stores files for another organisation – traditionally webhosting on the Internet</li>
@@ -144,6 +147,7 @@ const Component14 = () => {
         <ul>
           <li>WWW (websites), email, multiplayer games, video streaming</li>
         </ul>
+
 
         <li><b>The Cloud</b></li>
         <ul>

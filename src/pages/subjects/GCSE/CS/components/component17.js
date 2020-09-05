@@ -65,6 +65,7 @@ const Component17 = () => {
 
         <li><b>Peripheral management & Drivers</b></li>
         <ul>
+          <li>Peripherals are external hardware e.g. printers/plotters</li>
           <li>OS use device drivers to communicate with internal hardware & peripherals </li>
           <li>Each piece of connected hardware has a device driver, that translates signals between the OS & hardware</li>
           <li>When booting up the OS decides what hardware is connected to choose the correct device drivers, any new hardware connections will have their device driver installed</li>
@@ -104,8 +105,8 @@ const Component17 = () => {
         <li><b>Data compression software</b> (more detailed explanation in component 2.6)</li>
         <ul>
           <li>Reduces the size of files so less disk space is used</li>
-          <li>Used in the internet to speed up download times</li>
-          <li>Compressed files need to be extracted before use (e.g. .zip or .rar)</li>
+          <li>Used in the internet to speed up download times, for faster data transfer</li>
+          <li>Compressed files need to be extracted before use (e.g. .zip or .rar) - can be locked with a password</li>
         </ul>
 
         <li><b>Defragmentation software</b></li>
@@ -124,7 +125,7 @@ const Component17 = () => {
           <li>ROLE</li>
           <ul>
             <li>A backup is a copy of a computer’s files & settings – stored externally</li>
-            <li>Allowing for data recovery if it is lost, caused by fire, theft, malware, hardware failure or a simple user-error (a “miss click”)</li>
+            <li>Allowing for data recovery if it is lost, caused by fire, theft, malware, hardware failure or a simple user-error (a "miss click")</li>
             <li>Backup utility has functions including – scheduling regular backups, creating rescue disks & disk images</li>
           </ul>
 

@@ -6,16 +6,16 @@ const Islam1 = () => {
       <h4>Islam - Belief in Allah</h4>
 
       <div className="key-words">
-      <p className="heading">KEY WORDS</p>
-      <ul>
-        <li><b>Miracles</b> - Extraordinary events that may not be explainable</li>
-        <li><b>Paranormal</b> - Unexplained things thought to have spiritual causes</li>
-        <li><b>Prophet</b> - Prophet	A messenger chosen by Allah to teach humanity what is right and wrong  </li>
-        <li><b>Resurrection</b> - The belief that humans will be raised again in the next life</li>
-        <li><b>Revelation</b> - Communication from Allah, often through an angel  </li>
-        <li><b>Scripture</b> - A holy book or text given by Allah through a prophet</li>
-        <li><b>Shirk</b> - A sin that involves setting up equals to Allah; worshipping anyone or anything besides him (worst sin)</li>
-      </ul>
+        <p className="heading">KEY WORDS</p>
+        <ul>
+          <li><b>Miracles</b> - Extraordinary events that may not be explainable</li>
+          <li><b>Paranormal</b> - Unexplained things thought to have spiritual causes</li>
+          <li><b>Prophet</b> - Prophet	A messenger chosen by Allah to teach humanity what is right and wrong  </li>
+          <li><b>Resurrection</b> - The belief that humans will be raised again in the next life</li>
+          <li><b>Revelation</b> - Communication from Allah, often through an angel  </li>
+          <li><b>Scripture</b> - A holy book or text given by Allah through a prophet</li>
+          <li><b>Shirk</b> - A sin that involves setting up equals to Allah; worshipping anyone or anything besides him (worst sin)</li>
+        </ul>
       </div>
 
       <p className="heading">6 Beliefs of Islam – in Sunni Islam</p>
@@ -63,10 +63,10 @@ const Islam1 = () => {
           <li>Creates unity between Shi’a Muslims</li>
           <li>Helps Shi'a Muslims know how to act</li>
         </ul>
-        
+
         <li>Twelvers Vs Seveners</li>
         <ul>
-          <li>Twelvers – believe there were 12 imams after Muhammad</li>          
+          <li>Twelvers – believe there were 12 imams after Muhammad</li>
           <li>Seveners – believe there were 7 imams after Muhammad</li>
         </ul>
 
@@ -80,9 +80,9 @@ const Islam1 = () => {
           <li><b>Immanence</b> – Allah is close an involved in the world</li>
           <li><b>Transcendent</b> – beyond physical limits</li>
           <li><b>Benevolence</b> – loving & caring of his creation</li>
-          <li><b>Omnipotence</b> – all powerful, controlling & the creator</li>
+          <li><b>Omnipotence</b> – all powerful, controlling & the 'creator'</li>
           <li><b>Merciful</b> – always forgives </li>
-          <li><b>Fairness</b> – fair & just (on Judgment day)</li>
+          <li><b>Fairness</b> – fair & just (on Judgment day), the 'judge'</li>
           <li><b>‘Adl or Adalat</b> – Allah is equitable & just</li>
         </ul>
 

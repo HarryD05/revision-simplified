@@ -143,6 +143,8 @@ const GCSE_CS = (props) => {
 						(I would watch pods the night before & morning of a test to refresh my memory)
 					</li>
 				</ul>
+
+				<li style={{ marginTop: '1rem' }}>I have also been creating a website to help people learn to code, it includes a tutorial for python (currently incomplete but has the basics!) - <a href="https://harryd05.github.io/code4all/" target="__blank" el="noopener noreferrer">Code4all</a></li>
 			</div>
 
 			<div id="notes">
