@@ -376,12 +376,12 @@ const Component26 = () => {
       <ul>
         <li>Images stored as bit maps, a grid of tiny dots or pixels</li>
         <li>The colour of each pixel is represented with a binary number</li>
-        <img src="https://bam.files.bbci.co.uk/bam/live/content/zr7qvk7/large" alt="black & white image grid with correlating 0s & 1s" />
+        <img src="https://bam.files.bbci.co.uk/bam/live/content/zr7qvk7/large" alt="black & white grid with correlating 0s & 1s" />
         <li>Colour depth - the greater number of bits comes with a greater range of colours e.g.</li>
         <ul>
           <li>1 bit - black or white</li>
           <li>2 bits - black, dark grey, light grey or white</li>
-          <img src="https://bam.files.bbci.co.uk/bam/live/content/zdht47h/large" alt="same image to above with 4 colours instead of 2" />
+          <img src="https://bam.files.bbci.co.uk/bam/live/content/zdht47h/large" alt="same as with 4 colours instead of 2" />
           <li>3 bytes - the full RGB spectrum, "slider" of 255 for red, green & blue (65,536 possibilities) e.g. 255-0-0 is red</li>
         </ul>
       </ul>

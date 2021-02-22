@@ -134,7 +134,7 @@ const Home = (props) => {
 						</td>
 					</tr>
 					<tr>
-						<td>(possibly) English Literature</td>
+						<td>English Literature</td>
 						<td>
 							<a
 								href="https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF"
@@ -146,7 +146,7 @@ const Home = (props) => {
 						</td>
 					</tr>
 					<tr>
-						<td>(possibly) Spanish</td>
+						<td>Spanish</td>
 						<td>
 							<a
 								href="https://filestore.aqa.org.uk/resources/spanish/specifications/AQA-8698-SP-2016.PDF"
@@ -183,10 +183,6 @@ const Home = (props) => {
 					</tr>
 					<tr>
 						<td>Physics</td>
-						<td>Maybe</td>
-					</tr>
-					<tr>
-						<td>EPQ</td>
 						<td>Maybe</td>
 					</tr>
 				</tbody>

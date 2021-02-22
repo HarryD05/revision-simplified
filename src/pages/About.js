@@ -10,7 +10,7 @@ const About = props => {
   return (
     <div className="about">
       <h1>About me</h1>
-      <p>I am Harry, a year 11 student currently studying for my GCSEs. I have aspirations to go to the University of Oxford to study Computer Science.</p>
+      <p>I am Harry, a year 11 student currently studying for my GCSEs. I have aspirations to go to the university to study Computer Science.</p>
 
       <h2>GCSEs</h2>
       <ul>
@@ -19,12 +19,12 @@ const About = props => {
       </ul>
 
       <h2>A-Levels</h2>
-      <p>I am currently thinking of taking...</p>
+      <p>I will be taking...</p>
       <ul>
         <li>Computer Science</li>
         <li>Maths</li>
         <li>Further Maths</li>
-        <li>(maybe) an EPQ or Physics</li>
+        <li>Physics</li>
       </ul>
     </div>
   )
